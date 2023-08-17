@@ -8,7 +8,7 @@
 ### Algoritmo Genetico
 ### Algoritmos de machine learning
 - Aprendizaje supervisado
-* Regresion lineal
+    * Regresion lineal
 * Minimos cuadrados
 * Gradiente desendiente
 * Regresion logistica
