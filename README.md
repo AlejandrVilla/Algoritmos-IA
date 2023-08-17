@@ -9,7 +9,6 @@
 ### Algoritmos de machine learning
 - Aprendizaje supervisado
     * Regresion lineal
-    * Minimos cuadrados
     * Gradiente desendiente
     * Regresion logistica
 - Aprendizaje no supervisado
