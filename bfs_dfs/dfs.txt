@@ -1,0 +1,39 @@
+DFS - Nodo seleccionado Huan
+Alejandro Villa Herrera
+
+Paso 1
+frontier = {Lim }
+reached = {}
+____________________________________________
+
+Paso 2
+frontier = {Anc Jun Ica }
+reached = {Lim }
+____________________________________________
+
+Paso 3
+frontier = {Anc Jun Ayac Aqp }
+reached = {Lim Ica }
+____________________________________________
+
+Paso 4
+frontier = {Anc Jun Ayac }
+reached = {Lim Ica Aqp }
+____________________________________________
+
+Paso 5
+frontier = {Anc Jun }
+reached = {Lim Ica Aqp Ayac }
+____________________________________________
+
+Paso 6
+frontier = {Anc Pasco Cusco }
+reached = {Lim Ica Aqp Ayac Jun }
+____________________________________________
+
+Paso 7
+frontier = {Anc Pasco }
+reached = {Lim Ica Aqp Ayac Jun Cusco }
+____________________________________________
+
+Pasco->Huan

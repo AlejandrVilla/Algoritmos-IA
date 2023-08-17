@@ -1,0 +1,4185 @@
+Parámetros:
+- Cantidad de Individuos: 10
+- Cantidad de Genes por Individuo: 8
+- Selección por Ruleta
+- Probabilidad de Cruzamiento: 0.7
+- Cruzamiento OBX
+- Probabilidad de Mutación: 0.2
+- Mutación de Intercambio
+- Cantidad de Iteraciones: 50
+
+Poblacion Inicial
+VILHAROE
+VLIAHREO
+ILVARHEO
+LVAIHREO
+HREOVILA
+HEROVLIA
+ROHELAVI
+LAHEROVI
+HELAVIRO
+HALEVORI
+
+Calcular la Aptitud para cada Individudo
+1)	VILHAROE	20		0.05000		0.06803
+2)	VLIAHREO	25		0.04000		0.08503
+3)	ILVARHEO	31		0.03226		0.10544
+4)	LVAIHREO	32		0.03125		0.10884
+5)	HREOVILA	29		0.03448		0.09864
+6)	HEROVLIA	34		0.02941		0.11565
+7)	ROHELAVI	26		0.03846		0.08844
+8)	LAHEROVI	25		0.04000		0.08503
+9)	HELAVIRO	29		0.03448		0.09864
+10)	HALEVORI	43		0.02326		0.14626
+
+**** Iteracion 1 ****
+Creacion de la Mating Pool
+0.320 =>	0	=>	LVAIHREO
+0.448 =>	1	=>	HREOVILA
+0.455 =>	2	=>	HREOVILA
+0.233 =>	3	=>	ILVARHEO
+0.287 =>	4	=>	LVAIHREO
+0.150 =>	5	=>	VLIAHREO
+0.363 =>	6	=>	LVAIHREO
+0.899 =>	7	=>	HALEVORI
+0.627 =>	8	=>	ROHELAVI
+0.622 =>	9	=>	ROHELAVI
+
+Seleccion de padres
+1 2
+HREOVILA HREOVILA
+cruzamiento
+0 1 3 4
+HREOVILA - HREOVILA
+sin mutacion 1
+mutacion 2
+posicion: 6 - 5 => HREOVLIA
+
+Seleccion de padres
+3 2
+ILVARHEO HREOVILA
+cruzamiento
+0 3 4 7
+ILVARHEO - VREAHILO
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+8 9
+ROHELAVI ROHELAVI
+cruzamiento
+3 4 6 7
+ROHELAVI - ROHELAVI
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+5 0
+VLIAHREO LVAIHREO
+cruzamiento
+2 3 4 6
+VLAIHREO - LVAIHREO
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+3 6
+ILVARHEO LVAIHREO
+cruzamiento
+1 2 4 6
+ILVARHEO - LVAIHREO
+sin mutacion 1
+sin mutacion 2
+
+Nueva Poblacion
+1)	HREOVILA
+2)	HREOVLIA
+3)	ILVARHEO
+4)	VREAHILO
+5)	ROHELAVI
+6)	ROHELAVI
+7)	VLAIHREO
+8)	LVAIHREO
+9)	ILVARHEO
+10)	LVAIHREO
+
+Calcular el Fitness
+1)	HREOVILA	29		0.03448		0.09355
+2)	HREOVLIA	36		0.02778		0.11613
+3)	ILVARHEO	31		0.03226		0.10000
+4)	VREAHILO	39		0.02564		0.12581
+5)	ROHELAVI	26		0.03846		0.08387
+6)	ROHELAVI	26		0.03846		0.08387
+7)	VLAIHREO	28		0.03571		0.09032
+8)	LVAIHREO	32		0.03125		0.10323
+9)	ILVARHEO	31		0.03226		0.10000
+10)	LVAIHREO	32		0.03125		0.10323
+
+**** Iteracion 2 ****
+Creacion de la Mating Pool
+0.320 =>	0	=>	VREAHILO
+0.448 =>	1	=>	ROHELAVI
+0.455 =>	2	=>	ROHELAVI
+0.233 =>	3	=>	ILVARHEO
+0.287 =>	4	=>	ILVARHEO
+0.150 =>	5	=>	HREOVLIA
+0.363 =>	6	=>	VREAHILO
+0.899 =>	7	=>	LVAIHREO
+0.627 =>	8	=>	VLAIHREO
+0.622 =>	9	=>	VLAIHREO
+
+Seleccion de padres
+1 2
+ROHELAVI ROHELAVI
+cruzamiento
+0 1 3 4
+ROHELAVI - ROHELAVI
+sin mutacion 1
+mutacion 2
+posicion: 6 - 5 => ROHELVAI
+
+Seleccion de padres
+3 2
+ILVARHEO ROHELAVI
+cruzamiento
+0 3 4 7
+ILVARHEO - IOHLRAVE
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+8 9
+VLAIHREO VLAIHREO
+cruzamiento
+3 4 6 7
+VLAIHREO - VLAIHREO
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+5 0
+HREOVLIA VREAHILO
+cruzamiento
+2 3 4 6
+HRVEILOA - VREAHILO
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+3 6
+ILVARHEO VREAHILO
+cruzamiento
+1 2 4 6
+IVRAEHLO - VREAHILO
+sin mutacion 1
+sin mutacion 2
+
+Nueva Poblacion
+1)	ROHELAVI
+2)	ROHELVAI
+3)	ILVARHEO
+4)	IOHLRAVE
+5)	VLAIHREO
+6)	VLAIHREO
+7)	HRVEILOA
+8)	VREAHILO
+9)	IVRAEHLO
+10)	VREAHILO
+
+Calcular el Fitness
+1)	ROHELAVI	26		0.03846		0.07084
+2)	ROHELVAI	33		0.03030		0.08992
+3)	ILVARHEO	31		0.03226		0.08447
+4)	IOHLRAVE	50		0.02000		0.13624
+5)	VLAIHREO	28		0.03571		0.07629
+6)	VLAIHREO	28		0.03571		0.07629
+7)	HRVEILOA	56		0.01786		0.15259
+8)	VREAHILO	39		0.02564		0.10627
+9)	IVRAEHLO	37		0.02703		0.10082
+10)	VREAHILO	39		0.02564		0.10627
+
+**** Iteracion 3 ****
+Creacion de la Mating Pool
+0.320 =>	0	=>	IOHLRAVE
+0.448 =>	1	=>	VLAIHREO
+0.455 =>	2	=>	VLAIHREO
+0.233 =>	3	=>	ILVARHEO
+0.287 =>	4	=>	IOHLRAVE
+0.150 =>	5	=>	ROHELVAI
+0.363 =>	6	=>	IOHLRAVE
+0.899 =>	7	=>	VREAHILO
+0.627 =>	8	=>	HRVEILOA
+0.622 =>	9	=>	HRVEILOA
+
+Seleccion de padres
+1 2
+VLAIHREO VLAIHREO
+cruzamiento
+0 1 3 4
+VLAIHREO - VLAIHREO
+sin mutacion 1
+mutacion 2
+posicion: 6 - 5 => VLAIHERO
+
+Seleccion de padres
+3 2
+ILVARHEO VLAIHREO
+cruzamiento
+0 3 4 7
+ILVARHEO - ILAVHREO
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+8 9
+HRVEILOA HRVEILOA
+cruzamiento
+3 4 6 7
+HRVEILOA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+5 0
+ROHELVAI IOHLRAVE
+cruzamiento
+2 3 4 6
+ROHLAVEI - IOHLRAVE
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+3 6
+ILVARHEO IOHLRAVE
+cruzamiento
+1 2 4 6
+ILRAVHEO - IOHLRAVE
+sin mutacion 1
+sin mutacion 2
+
+Nueva Poblacion
+1)	VLAIHREO
+2)	VLAIHERO
+3)	ILVARHEO
+4)	ILAVHREO
+5)	HRVEILOA
+6)	HRVEILOA
+7)	ROHLAVEI
+8)	IOHLRAVE
+9)	ILRAVHEO
+10)	IOHLRAVE
+
+Calcular el Fitness
+1)	VLAIHREO	28		0.03571		0.07071
+2)	VLAIHERO	26		0.03846		0.06566
+3)	ILVARHEO	31		0.03226		0.07828
+4)	ILAVHREO	27		0.03704		0.06818
+5)	HRVEILOA	56		0.01786		0.14141
+6)	HRVEILOA	56		0.01786		0.14141
+7)	ROHLAVEI	39		0.02564		0.09848
+8)	IOHLRAVE	50		0.02000		0.12626
+9)	ILRAVHEO	33		0.03030		0.08333
+10)	IOHLRAVE	50		0.02000		0.12626
+
+**** Iteracion 4 ****
+Creacion de la Mating Pool
+0.320 =>	0	=>	HRVEILOA
+0.448 =>	1	=>	HRVEILOA
+0.455 =>	2	=>	HRVEILOA
+0.233 =>	3	=>	ILAVHREO
+0.287 =>	4	=>	HRVEILOA
+0.150 =>	5	=>	ILVARHEO
+0.363 =>	6	=>	HRVEILOA
+0.899 =>	7	=>	IOHLRAVE
+0.627 =>	8	=>	ROHLAVEI
+0.622 =>	9	=>	ROHLAVEI
+
+Seleccion de padres
+1 2
+HRVEILOA HRVEILOA
+cruzamiento
+0 1 3 4
+HRVEILOA - HRVEILOA
+sin mutacion 1
+mutacion 2
+posicion: 6 - 5 => HRVEIOLA
+
+Seleccion de padres
+3 2
+ILAVHREO HRVEILOA
+cruzamiento
+0 3 4 7
+ILAVHREO - IRVAHLOE
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+8 9
+ROHLAVEI ROHLAVEI
+cruzamiento
+3 4 6 7
+ROHLAVEI - ROHLAVEI
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+5 0
+ILVARHEO HRVEILOA
+cruzamiento
+2 3 4 6
+ILRVEHAO - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+3 6
+ILAVHREO HRVEILOA
+cruzamiento
+1 2 4 6
+IHEVLRAO - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Nueva Poblacion
+1)	HRVEILOA
+2)	HRVEIOLA
+3)	ILAVHREO
+4)	IRVAHLOE
+5)	ROHLAVEI
+6)	ROHLAVEI
+7)	ILRVEHAO
+8)	HRVEILOA
+9)	IHEVLRAO
+10)	HRVEILOA
+
+Calcular el Fitness
+1)	HRVEILOA	56		0.01786		0.12200
+2)	HRVEIOLA	60		0.01667		0.13072
+3)	ILAVHREO	27		0.03704		0.05882
+4)	IRVAHLOE	42		0.02381		0.09150
+5)	ROHLAVEI	39		0.02564		0.08497
+6)	ROHLAVEI	39		0.02564		0.08497
+7)	ILRVEHAO	42		0.02381		0.09150
+8)	HRVEILOA	56		0.01786		0.12200
+9)	IHEVLRAO	42		0.02381		0.09150
+10)	HRVEILOA	56		0.01786		0.12200
+
+**** Iteracion 5 ****
+Creacion de la Mating Pool
+0.320 =>	0	=>	IRVAHLOE
+0.448 =>	1	=>	ROHLAVEI
+0.455 =>	2	=>	ROHLAVEI
+0.233 =>	3	=>	HRVEIOLA
+0.287 =>	4	=>	ILAVHREO
+0.150 =>	5	=>	HRVEIOLA
+0.363 =>	6	=>	IRVAHLOE
+0.899 =>	7	=>	HRVEILOA
+0.627 =>	8	=>	ILRVEHAO
+0.622 =>	9	=>	ILRVEHAO
+
+Seleccion de padres
+1 2
+ROHLAVEI ROHLAVEI
+cruzamiento
+0 1 3 4
+ROHLAVEI - ROHLAVEI
+sin mutacion 1
+mutacion 2
+posicion: 6 - 5 => ROHLAEVI
+
+Seleccion de padres
+3 2
+HRVEIOLA ROHLAVEI
+cruzamiento
+0 3 4 7
+HRVEIOLA - ROHILVEA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+8 9
+ILRVEHAO ILRVEHAO
+cruzamiento
+3 4 6 7
+ILRVEHAO - ILRVEHAO
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+5 0
+HRVEIOLA IRVAHLOE
+cruzamiento
+2 3 4 6
+HRIVLOEA - IRVAHLOE
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+3 6
+HRVEIOLA IRVAHLOE
+cruzamiento
+1 2 4 6
+HIREVOLA - IRVAHLOE
+sin mutacion 1
+sin mutacion 2
+
+Nueva Poblacion
+1)	ROHLAVEI
+2)	ROHLAEVI
+3)	HRVEIOLA
+4)	ROHILVEA
+5)	ILRVEHAO
+6)	ILRVEHAO
+7)	HRIVLOEA
+8)	IRVAHLOE
+9)	HIREVOLA
+10)	IRVAHLOE
+
+Calcular el Fitness
+1)	ROHLAVEI	39		0.02564		0.09112
+2)	ROHLAEVI	30		0.03333		0.07009
+3)	HRVEIOLA	60		0.01667		0.14019
+4)	ROHILVEA	41		0.02439		0.09579
+5)	ILRVEHAO	42		0.02381		0.09813
+6)	ILRVEHAO	42		0.02381		0.09813
+7)	HRIVLOEA	38		0.02632		0.08879
+8)	IRVAHLOE	42		0.02381		0.09813
+9)	HIREVOLA	52		0.01923		0.12150
+10)	IRVAHLOE	42		0.02381		0.09813
+
+**** Iteracion 6 ****
+Creacion de la Mating Pool
+0.320 =>	0	=>	ROHILVEA
+0.448 =>	1	=>	ILRVEHAO
+0.455 =>	2	=>	ILRVEHAO
+0.233 =>	3	=>	HRVEIOLA
+0.287 =>	4	=>	HRVEIOLA
+0.150 =>	5	=>	ROHLAEVI
+0.363 =>	6	=>	ROHILVEA
+0.899 =>	7	=>	HIREVOLA
+0.627 =>	8	=>	HRIVLOEA
+0.622 =>	9	=>	HRIVLOEA
+
+Seleccion de padres
+1 2
+ILRVEHAO ILRVEHAO
+cruzamiento
+0 1 3 4
+ILRVEHAO - ILRVEHAO
+sin mutacion 1
+mutacion 2
+posicion: 6 - 5 => ILRVEAHO
+
+Seleccion de padres
+3 2
+HRVEIOLA ILRVEHAO
+cruzamiento
+0 3 4 7
+HRVEIOLA - VLREIHAO
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+8 9
+HRIVLOEA HRIVLOEA
+cruzamiento
+3 4 6 7
+HRIVLOEA - HRIVLOEA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+5 0
+ROHLAEVI ROHILVEA
+cruzamiento
+2 3 4 6
+ROHLVEAI - ROHILVEA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+3 6
+HRVEIOLA ROHILVEA
+cruzamiento
+1 2 4 6
+HRIELOVA - ROHILVEA
+sin mutacion 1
+sin mutacion 2
+
+Nueva Poblacion
+1)	ILRVEHAO
+2)	ILRVEAHO
+3)	HRVEIOLA
+4)	VLREIHAO
+5)	HRIVLOEA
+6)	HRIVLOEA
+7)	ROHLVEAI
+8)	ROHILVEA
+9)	HRIELOVA
+10)	ROHILVEA
+
+Calcular el Fitness
+1)	ILRVEHAO	42		0.02381		0.09633
+2)	ILRVEAHO	45		0.02222		0.10321
+3)	HRVEIOLA	60		0.01667		0.13761
+4)	VLREIHAO	36		0.02778		0.08257
+5)	HRIVLOEA	38		0.02632		0.08716
+6)	HRIVLOEA	38		0.02632		0.08716
+7)	ROHLVEAI	37		0.02703		0.08486
+8)	ROHILVEA	41		0.02439		0.09404
+9)	HRIELOVA	58		0.01724		0.13303
+10)	ROHILVEA	41		0.02439		0.09404
+
+**** Iteracion 7 ****
+Creacion de la Mating Pool
+0.320 =>	0	=>	HRVEIOLA
+0.448 =>	1	=>	HRIVLOEA
+0.455 =>	2	=>	HRIVLOEA
+0.233 =>	3	=>	HRVEIOLA
+0.287 =>	4	=>	HRVEIOLA
+0.150 =>	5	=>	ILRVEAHO
+0.363 =>	6	=>	VLREIHAO
+0.899 =>	7	=>	HRIELOVA
+0.627 =>	8	=>	ROHLVEAI
+0.622 =>	9	=>	ROHLVEAI
+
+Seleccion de padres
+1 2
+HRIVLOEA HRIVLOEA
+cruzamiento
+0 1 3 4
+HRIVLOEA - HRIVLOEA
+sin mutacion 1
+mutacion 2
+posicion: 6 - 5 => HRIVLEOA
+
+Seleccion de padres
+3 2
+HRVEIOLA HRIVLOEA
+cruzamiento
+0 3 4 7
+HRVEIOLA - HRIVLOEA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+8 9
+ROHLVEAI ROHLVEAI
+cruzamiento
+3 4 6 7
+ROHLVEAI - ROHLVEAI
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+5 0
+ILRVEAHO HRVEIOLA
+cruzamiento
+2 3 4 6
+ILHRVAEO - HRVEIOLA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+3 6
+HRVEIOLA VLREIHAO
+cruzamiento
+1 2 4 6
+HVLEROIA - VLREIHAO
+sin mutacion 1
+sin mutacion 2
+
+Nueva Poblacion
+1)	HRIVLOEA
+2)	HRIVLEOA
+3)	HRVEIOLA
+4)	HRIVLOEA
+5)	ROHLVEAI
+6)	ROHLVEAI
+7)	ILHRVAEO
+8)	HRVEIOLA
+9)	HVLEROIA
+10)	VLREIHAO
+
+Calcular el Fitness
+1)	HRIVLOEA	38		0.02632		0.09179
+2)	HRIVLEOA	35		0.02857		0.08454
+3)	HRVEIOLA	60		0.01667		0.14493
+4)	HRIVLOEA	38		0.02632		0.09179
+5)	ROHLVEAI	37		0.02703		0.08937
+6)	ROHLVEAI	37		0.02703		0.08937
+7)	ILHRVAEO	36		0.02778		0.08696
+8)	HRVEIOLA	60		0.01667		0.14493
+9)	HVLEROIA	37		0.02703		0.08937
+10)	VLREIHAO	36		0.02778		0.08696
+
+**** Iteracion 8 ****
+Creacion de la Mating Pool
+0.320 =>	0	=>	HRVEIOLA
+0.448 =>	1	=>	ROHLVEAI
+0.455 =>	2	=>	ROHLVEAI
+0.233 =>	3	=>	HRVEIOLA
+0.287 =>	4	=>	HRVEIOLA
+0.150 =>	5	=>	HRIVLEOA
+0.363 =>	6	=>	HRIVLOEA
+0.899 =>	7	=>	HVLEROIA
+0.627 =>	8	=>	ILHRVAEO
+0.622 =>	9	=>	ILHRVAEO
+
+Seleccion de padres
+1 2
+ROHLVEAI ROHLVEAI
+cruzamiento
+0 1 3 4
+ROHLVEAI - ROHLVEAI
+sin mutacion 1
+mutacion 2
+posicion: 6 - 5 => ROHLVAEI
+
+Seleccion de padres
+3 2
+HRVEIOLA ROHLVEAI
+cruzamiento
+0 3 4 7
+HRVEIOLA - ROHVIEAL
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+8 9
+ILHRVAEO ILHRVAEO
+cruzamiento
+3 4 6 7
+ILHRVAEO - ILHRVAEO
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+5 0
+HRIVLEOA HRVEIOLA
+cruzamiento
+2 3 4 6
+HRVIOELA - HRVEIOLA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+3 6
+HRVEIOLA HRIVLOEA
+cruzamiento
+1 2 4 6
+HRIEVOLA - HRIVLOEA
+sin mutacion 1
+sin mutacion 2
+
+Nueva Poblacion
+1)	ROHLVEAI
+2)	ROHLVAEI
+3)	HRVEIOLA
+4)	ROHVIEAL
+5)	ILHRVAEO
+6)	ILHRVAEO
+7)	HRVIOELA
+8)	HRVEIOLA
+9)	HRIEVOLA
+10)	HRIVLOEA
+
+Calcular el Fitness
+1)	ROHLVEAI	37		0.02703		0.08428
+2)	ROHLVAEI	37		0.02703		0.08428
+3)	HRVEIOLA	60		0.01667		0.13667
+4)	ROHVIEAL	36		0.02778		0.08200
+5)	ILHRVAEO	36		0.02778		0.08200
+6)	ILHRVAEO	36		0.02778		0.08200
+7)	HRVIOELA	39		0.02564		0.08884
+8)	HRVEIOLA	60		0.01667		0.13667
+9)	HRIEVOLA	60		0.01667		0.13667
+10)	HRIVLOEA	38		0.02632		0.08656
+
+**** Iteracion 9 ****
+Creacion de la Mating Pool
+0.320 =>	0	=>	ROHVIEAL
+0.448 =>	1	=>	ILHRVAEO
+0.455 =>	2	=>	ILHRVAEO
+0.233 =>	3	=>	HRVEIOLA
+0.287 =>	4	=>	HRVEIOLA
+0.150 =>	5	=>	ROHLVAEI
+0.363 =>	6	=>	ROHVIEAL
+0.899 =>	7	=>	HRIEVOLA
+0.627 =>	8	=>	HRVIOELA
+0.622 =>	9	=>	HRVIOELA
+
+Seleccion de padres
+1 2
+ILHRVAEO ILHRVAEO
+cruzamiento
+0 1 3 4
+ILHRVAEO - ILHRVAEO
+sin mutacion 1
+mutacion 2
+posicion: 6 - 5 => ILHRVEAO
+
+Seleccion de padres
+3 2
+HRVEIOLA ILHRVAEO
+cruzamiento
+0 3 4 7
+HRVEIOLA - RLHVIAEO
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+8 9
+HRVIOELA HRVIOELA
+cruzamiento
+3 4 6 7
+HRVIOELA - HRVIOELA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+5 0
+ROHLVAEI ROHVIEAL
+cruzamiento
+2 3 4 6
+ROHVEALI - ROHVIEAL
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+3 6
+HRVEIOLA ROHVIEAL
+cruzamiento
+1 2 4 6
+HRVEIOLA - ROHVIEAL
+sin mutacion 1
+sin mutacion 2
+
+Nueva Poblacion
+1)	ILHRVAEO
+2)	ILHRVEAO
+3)	HRVEIOLA
+4)	RLHVIAEO
+5)	HRVIOELA
+6)	HRVIOELA
+7)	ROHVEALI
+8)	ROHVIEAL
+9)	HRVEIOLA
+10)	ROHVIEAL
+
+Calcular el Fitness
+1)	ILHRVAEO	36		0.02778		0.08633
+2)	ILHRVEAO	45		0.02222		0.10791
+3)	HRVEIOLA	60		0.01667		0.14388
+4)	RLHVIAEO	28		0.03571		0.06715
+5)	HRVIOELA	39		0.02564		0.09353
+6)	HRVIOELA	39		0.02564		0.09353
+7)	ROHVEALI	38		0.02632		0.09113
+8)	ROHVIEAL	36		0.02778		0.08633
+9)	HRVEIOLA	60		0.01667		0.14388
+10)	ROHVIEAL	36		0.02778		0.08633
+
+**** Iteracion 10 ****
+Creacion de la Mating Pool
+0.320 =>	0	=>	HRVEIOLA
+0.448 =>	1	=>	HRVIOELA
+0.455 =>	2	=>	HRVIOELA
+0.233 =>	3	=>	HRVEIOLA
+0.287 =>	4	=>	HRVEIOLA
+0.150 =>	5	=>	ILHRVEAO
+0.363 =>	6	=>	RLHVIAEO
+0.899 =>	7	=>	HRVEIOLA
+0.627 =>	8	=>	ROHVEALI
+0.622 =>	9	=>	ROHVEALI
+
+Seleccion de padres
+1 2
+HRVIOELA HRVIOELA
+cruzamiento
+0 1 3 4
+HRVIOELA - HRVIOELA
+sin mutacion 1
+mutacion 2
+posicion: 6 - 5 => HRVIOLEA
+
+Seleccion de padres
+3 2
+HRVEIOLA HRVIOELA
+cruzamiento
+0 3 4 7
+HRVEIOLA - HRVIOELA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+8 9
+ROHVEALI ROHVEALI
+cruzamiento
+3 4 6 7
+ROHVEALI - ROHVEALI
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+5 0
+ILHRVEAO HRVEIOLA
+cruzamiento
+2 3 4 6
+ILHRVEAO - HRVEIOLA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+3 6
+HRVEIOLA RLHVIAEO
+cruzamiento
+1 2 4 6
+HRLEVOIA - RLHVIAEO
+sin mutacion 1
+sin mutacion 2
+
+Nueva Poblacion
+1)	HRVIOELA
+2)	HRVIOLEA
+3)	HRVEIOLA
+4)	HRVIOELA
+5)	ROHVEALI
+6)	ROHVEALI
+7)	ILHRVEAO
+8)	HRVEIOLA
+9)	HRLEVOIA
+10)	RLHVIAEO
+
+Calcular el Fitness
+1)	HRVIOELA	39		0.02564		0.08609
+2)	HRVIOLEA	49		0.02041		0.10817
+3)	HRVEIOLA	60		0.01667		0.13245
+4)	HRVIOELA	39		0.02564		0.08609
+5)	ROHVEALI	38		0.02632		0.08389
+6)	ROHVEALI	38		0.02632		0.08389
+7)	ILHRVEAO	45		0.02222		0.09934
+8)	HRVEIOLA	60		0.01667		0.13245
+9)	HRLEVOIA	57		0.01754		0.12583
+10)	RLHVIAEO	28		0.03571		0.06181
+
+**** Iteracion 11 ****
+Creacion de la Mating Pool
+0.320 =>	0	=>	HRVEIOLA
+0.448 =>	1	=>	ROHVEALI
+0.455 =>	2	=>	ROHVEALI
+0.233 =>	3	=>	HRVEIOLA
+0.287 =>	4	=>	HRVEIOLA
+0.150 =>	5	=>	HRVIOLEA
+0.363 =>	6	=>	HRVIOELA
+0.899 =>	7	=>	HRLEVOIA
+0.627 =>	8	=>	ILHRVEAO
+0.622 =>	9	=>	ILHRVEAO
+
+Seleccion de padres
+1 2
+ROHVEALI ROHVEALI
+cruzamiento
+0 1 3 4
+ROHVEALI - ROHVEALI
+sin mutacion 1
+mutacion 2
+posicion: 6 - 5 => ROHVELAI
+
+Seleccion de padres
+3 2
+HRVEIOLA ROHVEALI
+cruzamiento
+0 3 4 7
+HRVEIOLA - ROHVEALI
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+8 9
+ILHRVEAO ILHRVEAO
+cruzamiento
+3 4 6 7
+ILHRVEAO - ILHRVEAO
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+5 0
+HRVIOLEA HRVEIOLA
+cruzamiento
+2 3 4 6
+HRVEILOA - HRVEIOLA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+3 6
+HRVEIOLA HRVIOELA
+cruzamiento
+1 2 4 6
+HRVEIOLA - HRVIOELA
+sin mutacion 1
+sin mutacion 2
+
+Nueva Poblacion
+1)	ROHVEALI
+2)	ROHVELAI
+3)	HRVEIOLA
+4)	ROHVEALI
+5)	ILHRVEAO
+6)	ILHRVEAO
+7)	HRVEILOA
+8)	HRVEIOLA
+9)	HRVEIOLA
+10)	HRVIOELA
+
+Calcular el Fitness
+1)	ROHVEALI	38		0.02632		0.07933
+2)	ROHVELAI	38		0.02632		0.07933
+3)	HRVEIOLA	60		0.01667		0.12526
+4)	ROHVEALI	38		0.02632		0.07933
+5)	ILHRVEAO	45		0.02222		0.09395
+6)	ILHRVEAO	45		0.02222		0.09395
+7)	HRVEILOA	56		0.01786		0.11691
+8)	HRVEIOLA	60		0.01667		0.12526
+9)	HRVEIOLA	60		0.01667		0.12526
+10)	HRVIOELA	39		0.02564		0.08142
+
+**** Iteracion 12 ****
+Creacion de la Mating Pool
+0.320 =>	0	=>	ROHVEALI
+0.448 =>	1	=>	ILHRVEAO
+0.455 =>	2	=>	ILHRVEAO
+0.233 =>	3	=>	HRVEIOLA
+0.287 =>	4	=>	ROHVEALI
+0.150 =>	5	=>	ROHVELAI
+0.363 =>	6	=>	ROHVEALI
+0.899 =>	7	=>	HRVEIOLA
+0.627 =>	8	=>	HRVEILOA
+0.622 =>	9	=>	HRVEILOA
+
+Seleccion de padres
+1 2
+ILHRVEAO ILHRVEAO
+cruzamiento
+0 1 3 4
+ILHRVEAO - ILHRVEAO
+sin mutacion 1
+mutacion 2
+posicion: 6 - 5 => ILHRVAEO
+
+Seleccion de padres
+3 2
+HRVEIOLA ILHRVEAO
+cruzamiento
+0 3 4 7
+HRVEIOLA - RLHVIEAO
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+8 9
+HRVEILOA HRVEILOA
+cruzamiento
+3 4 6 7
+HRVEILOA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+5 0
+ROHVELAI ROHVEALI
+cruzamiento
+2 3 4 6
+ROHVELAI - ROHVEALI
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+3 6
+HRVEIOLA ROHVEALI
+cruzamiento
+1 2 4 6
+HRVELOIA - ROHVEALI
+sin mutacion 1
+sin mutacion 2
+
+Nueva Poblacion
+1)	ILHRVEAO
+2)	ILHRVAEO
+3)	HRVEIOLA
+4)	RLHVIEAO
+5)	HRVEILOA
+6)	HRVEILOA
+7)	ROHVELAI
+8)	ROHVEALI
+9)	HRVELOIA
+10)	ROHVEALI
+
+Calcular el Fitness
+1)	ILHRVEAO	45		0.02222		0.09740
+2)	ILHRVAEO	36		0.02778		0.07792
+3)	HRVEIOLA	60		0.01667		0.12987
+4)	RLHVIEAO	37		0.02703		0.08009
+5)	HRVEILOA	56		0.01786		0.12121
+6)	HRVEILOA	56		0.01786		0.12121
+7)	ROHVELAI	38		0.02632		0.08225
+8)	ROHVEALI	38		0.02632		0.08225
+9)	HRVELOIA	58		0.01724		0.12554
+10)	ROHVEALI	38		0.02632		0.08225
+
+**** Iteracion 13 ****
+Creacion de la Mating Pool
+0.320 =>	0	=>	RLHVIEAO
+0.448 =>	1	=>	HRVEILOA
+0.455 =>	2	=>	HRVEILOA
+0.233 =>	3	=>	HRVEIOLA
+0.287 =>	4	=>	HRVEIOLA
+0.150 =>	5	=>	ILHRVAEO
+0.363 =>	6	=>	RLHVIEAO
+0.899 =>	7	=>	HRVELOIA
+0.627 =>	8	=>	HRVEILOA
+0.622 =>	9	=>	HRVEILOA
+
+Seleccion de padres
+1 2
+HRVEILOA HRVEILOA
+cruzamiento
+0 1 3 4
+HRVEILOA - HRVEILOA
+sin mutacion 1
+mutacion 2
+posicion: 6 - 5 => HRVEIOLA
+
+Seleccion de padres
+3 2
+HRVEIOLA HRVEILOA
+cruzamiento
+0 3 4 7
+HRVEIOLA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+8 9
+HRVEILOA HRVEILOA
+cruzamiento
+3 4 6 7
+HRVEILOA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+5 0
+ILHRVAEO RLHVIEAO
+cruzamiento
+2 3 4 6
+ILRHVAEO - RLHVIEAO
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+3 6
+HRVEIOLA RLHVIEAO
+cruzamiento
+1 2 4 6
+HRLEVOIA - RLHVIEAO
+sin mutacion 1
+sin mutacion 2
+
+Nueva Poblacion
+1)	HRVEILOA
+2)	HRVEIOLA
+3)	HRVEIOLA
+4)	HRVEILOA
+5)	HRVEILOA
+6)	HRVEILOA
+7)	ILRHVAEO
+8)	RLHVIEAO
+9)	HRLEVOIA
+10)	RLHVIEAO
+
+Calcular el Fitness
+1)	HRVEILOA	56		0.01786		0.10980
+2)	HRVEIOLA	60		0.01667		0.11765
+3)	HRVEIOLA	60		0.01667		0.11765
+4)	HRVEILOA	56		0.01786		0.10980
+5)	HRVEILOA	56		0.01786		0.10980
+6)	HRVEILOA	56		0.01786		0.10980
+7)	ILRHVAEO	35		0.02857		0.06863
+8)	RLHVIEAO	37		0.02703		0.07255
+9)	HRLEVOIA	57		0.01754		0.11176
+10)	RLHVIEAO	37		0.02703		0.07255
+
+**** Iteracion 14 ****
+Creacion de la Mating Pool
+0.320 =>	0	=>	HRVEIOLA
+0.448 =>	1	=>	HRVEILOA
+0.455 =>	2	=>	HRVEILOA
+0.233 =>	3	=>	HRVEIOLA
+0.287 =>	4	=>	HRVEIOLA
+0.150 =>	5	=>	HRVEIOLA
+0.363 =>	6	=>	HRVEILOA
+0.899 =>	7	=>	HRLEVOIA
+0.627 =>	8	=>	HRVEILOA
+0.622 =>	9	=>	HRVEILOA
+
+Seleccion de padres
+1 2
+HRVEILOA HRVEILOA
+cruzamiento
+0 1 3 4
+HRVEILOA - HRVEILOA
+sin mutacion 1
+mutacion 2
+posicion: 6 - 5 => HRVEIOLA
+
+Seleccion de padres
+3 2
+HRVEIOLA HRVEILOA
+cruzamiento
+0 3 4 7
+HRVEIOLA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+8 9
+HRVEILOA HRVEILOA
+cruzamiento
+3 4 6 7
+HRVEILOA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+5 0
+HRVEIOLA HRVEIOLA
+cruzamiento
+2 3 4 6
+HRVEIOLA - HRVEIOLA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+3 6
+HRVEIOLA HRVEILOA
+cruzamiento
+1 2 4 6
+HRVEIOLA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Nueva Poblacion
+1)	HRVEILOA
+2)	HRVEIOLA
+3)	HRVEIOLA
+4)	HRVEILOA
+5)	HRVEILOA
+6)	HRVEILOA
+7)	HRVEIOLA
+8)	HRVEIOLA
+9)	HRVEIOLA
+10)	HRVEILOA
+
+Calcular el Fitness
+1)	HRVEILOA	56		0.01786		0.09655
+2)	HRVEIOLA	60		0.01667		0.10345
+3)	HRVEIOLA	60		0.01667		0.10345
+4)	HRVEILOA	56		0.01786		0.09655
+5)	HRVEILOA	56		0.01786		0.09655
+6)	HRVEILOA	56		0.01786		0.09655
+7)	HRVEIOLA	60		0.01667		0.10345
+8)	HRVEIOLA	60		0.01667		0.10345
+9)	HRVEIOLA	60		0.01667		0.10345
+10)	HRVEILOA	56		0.01786		0.09655
+
+**** Iteracion 15 ****
+Creacion de la Mating Pool
+0.320 =>	0	=>	HRVEILOA
+0.448 =>	1	=>	HRVEILOA
+0.455 =>	2	=>	HRVEILOA
+0.233 =>	3	=>	HRVEIOLA
+0.287 =>	4	=>	HRVEIOLA
+0.150 =>	5	=>	HRVEIOLA
+0.363 =>	6	=>	HRVEILOA
+0.899 =>	7	=>	HRVEIOLA
+0.627 =>	8	=>	HRVEIOLA
+0.622 =>	9	=>	HRVEIOLA
+
+Seleccion de padres
+1 2
+HRVEILOA HRVEILOA
+cruzamiento
+0 1 3 4
+HRVEILOA - HRVEILOA
+sin mutacion 1
+mutacion 2
+posicion: 6 - 5 => HRVEIOLA
+
+Seleccion de padres
+3 2
+HRVEIOLA HRVEILOA
+cruzamiento
+0 3 4 7
+HRVEIOLA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+8 9
+HRVEIOLA HRVEIOLA
+cruzamiento
+3 4 6 7
+HRVEIOLA - HRVEIOLA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+5 0
+HRVEIOLA HRVEILOA
+cruzamiento
+2 3 4 6
+HRVEIOLA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+3 6
+HRVEIOLA HRVEILOA
+cruzamiento
+1 2 4 6
+HRVEIOLA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Nueva Poblacion
+1)	HRVEILOA
+2)	HRVEIOLA
+3)	HRVEIOLA
+4)	HRVEILOA
+5)	HRVEIOLA
+6)	HRVEIOLA
+7)	HRVEIOLA
+8)	HRVEILOA
+9)	HRVEIOLA
+10)	HRVEILOA
+
+Calcular el Fitness
+1)	HRVEILOA	56		0.01786		0.09589
+2)	HRVEIOLA	60		0.01667		0.10274
+3)	HRVEIOLA	60		0.01667		0.10274
+4)	HRVEILOA	56		0.01786		0.09589
+5)	HRVEIOLA	60		0.01667		0.10274
+6)	HRVEIOLA	60		0.01667		0.10274
+7)	HRVEIOLA	60		0.01667		0.10274
+8)	HRVEILOA	56		0.01786		0.09589
+9)	HRVEIOLA	60		0.01667		0.10274
+10)	HRVEILOA	56		0.01786		0.09589
+
+**** Iteracion 16 ****
+Creacion de la Mating Pool
+0.320 =>	0	=>	HRVEILOA
+0.448 =>	1	=>	HRVEIOLA
+0.455 =>	2	=>	HRVEIOLA
+0.233 =>	3	=>	HRVEIOLA
+0.287 =>	4	=>	HRVEIOLA
+0.150 =>	5	=>	HRVEIOLA
+0.363 =>	6	=>	HRVEILOA
+0.899 =>	7	=>	HRVEIOLA
+0.627 =>	8	=>	HRVEIOLA
+0.622 =>	9	=>	HRVEIOLA
+
+Seleccion de padres
+1 2
+HRVEIOLA HRVEIOLA
+cruzamiento
+0 1 3 4
+HRVEIOLA - HRVEIOLA
+sin mutacion 1
+mutacion 2
+posicion: 6 - 5 => HRVEILOA
+
+Seleccion de padres
+3 2
+HRVEIOLA HRVEIOLA
+cruzamiento
+0 3 4 7
+HRVEIOLA - HRVEIOLA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+8 9
+HRVEIOLA HRVEIOLA
+cruzamiento
+3 4 6 7
+HRVEIOLA - HRVEIOLA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+5 0
+HRVEIOLA HRVEILOA
+cruzamiento
+2 3 4 6
+HRVEIOLA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+3 6
+HRVEIOLA HRVEILOA
+cruzamiento
+1 2 4 6
+HRVEIOLA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Nueva Poblacion
+1)	HRVEIOLA
+2)	HRVEILOA
+3)	HRVEIOLA
+4)	HRVEIOLA
+5)	HRVEIOLA
+6)	HRVEIOLA
+7)	HRVEIOLA
+8)	HRVEILOA
+9)	HRVEIOLA
+10)	HRVEILOA
+
+Calcular el Fitness
+1)	HRVEIOLA	60		0.01667		0.10204
+2)	HRVEILOA	56		0.01786		0.09524
+3)	HRVEIOLA	60		0.01667		0.10204
+4)	HRVEIOLA	60		0.01667		0.10204
+5)	HRVEIOLA	60		0.01667		0.10204
+6)	HRVEIOLA	60		0.01667		0.10204
+7)	HRVEIOLA	60		0.01667		0.10204
+8)	HRVEILOA	56		0.01786		0.09524
+9)	HRVEIOLA	60		0.01667		0.10204
+10)	HRVEILOA	56		0.01786		0.09524
+
+**** Iteracion 17 ****
+Creacion de la Mating Pool
+0.320 =>	0	=>	HRVEIOLA
+0.448 =>	1	=>	HRVEIOLA
+0.455 =>	2	=>	HRVEIOLA
+0.233 =>	3	=>	HRVEIOLA
+0.287 =>	4	=>	HRVEIOLA
+0.150 =>	5	=>	HRVEILOA
+0.363 =>	6	=>	HRVEIOLA
+0.899 =>	7	=>	HRVEIOLA
+0.627 =>	8	=>	HRVEIOLA
+0.622 =>	9	=>	HRVEIOLA
+
+Seleccion de padres
+1 2
+HRVEIOLA HRVEIOLA
+cruzamiento
+0 1 3 4
+HRVEIOLA - HRVEIOLA
+sin mutacion 1
+mutacion 2
+posicion: 6 - 5 => HRVEILOA
+
+Seleccion de padres
+3 2
+HRVEIOLA HRVEIOLA
+cruzamiento
+0 3 4 7
+HRVEIOLA - HRVEIOLA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+8 9
+HRVEIOLA HRVEIOLA
+cruzamiento
+3 4 6 7
+HRVEIOLA - HRVEIOLA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+5 0
+HRVEILOA HRVEIOLA
+cruzamiento
+2 3 4 6
+HRVEILOA - HRVEIOLA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+3 6
+HRVEIOLA HRVEIOLA
+cruzamiento
+1 2 4 6
+HRVEIOLA - HRVEIOLA
+sin mutacion 1
+sin mutacion 2
+
+Nueva Poblacion
+1)	HRVEIOLA
+2)	HRVEILOA
+3)	HRVEIOLA
+4)	HRVEIOLA
+5)	HRVEIOLA
+6)	HRVEIOLA
+7)	HRVEILOA
+8)	HRVEIOLA
+9)	HRVEIOLA
+10)	HRVEIOLA
+
+Calcular el Fitness
+1)	HRVEIOLA	60		0.01667		0.10135
+2)	HRVEILOA	56		0.01786		0.09459
+3)	HRVEIOLA	60		0.01667		0.10135
+4)	HRVEIOLA	60		0.01667		0.10135
+5)	HRVEIOLA	60		0.01667		0.10135
+6)	HRVEIOLA	60		0.01667		0.10135
+7)	HRVEILOA	56		0.01786		0.09459
+8)	HRVEIOLA	60		0.01667		0.10135
+9)	HRVEIOLA	60		0.01667		0.10135
+10)	HRVEIOLA	60		0.01667		0.10135
+
+**** Iteracion 18 ****
+Creacion de la Mating Pool
+0.320 =>	0	=>	HRVEIOLA
+0.448 =>	1	=>	HRVEIOLA
+0.455 =>	2	=>	HRVEIOLA
+0.233 =>	3	=>	HRVEIOLA
+0.287 =>	4	=>	HRVEIOLA
+0.150 =>	5	=>	HRVEILOA
+0.363 =>	6	=>	HRVEIOLA
+0.899 =>	7	=>	HRVEIOLA
+0.627 =>	8	=>	HRVEILOA
+0.622 =>	9	=>	HRVEILOA
+
+Seleccion de padres
+1 2
+HRVEIOLA HRVEIOLA
+cruzamiento
+0 1 3 4
+HRVEIOLA - HRVEIOLA
+sin mutacion 1
+mutacion 2
+posicion: 6 - 5 => HRVEILOA
+
+Seleccion de padres
+3 2
+HRVEIOLA HRVEIOLA
+cruzamiento
+0 3 4 7
+HRVEIOLA - HRVEIOLA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+8 9
+HRVEILOA HRVEILOA
+cruzamiento
+3 4 6 7
+HRVEILOA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+5 0
+HRVEILOA HRVEIOLA
+cruzamiento
+2 3 4 6
+HRVEILOA - HRVEIOLA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+3 6
+HRVEIOLA HRVEIOLA
+cruzamiento
+1 2 4 6
+HRVEIOLA - HRVEIOLA
+sin mutacion 1
+sin mutacion 2
+
+Nueva Poblacion
+1)	HRVEIOLA
+2)	HRVEILOA
+3)	HRVEIOLA
+4)	HRVEIOLA
+5)	HRVEILOA
+6)	HRVEILOA
+7)	HRVEILOA
+8)	HRVEIOLA
+9)	HRVEIOLA
+10)	HRVEIOLA
+
+Calcular el Fitness
+1)	HRVEIOLA	60		0.01667		0.10274
+2)	HRVEILOA	56		0.01786		0.09589
+3)	HRVEIOLA	60		0.01667		0.10274
+4)	HRVEIOLA	60		0.01667		0.10274
+5)	HRVEILOA	56		0.01786		0.09589
+6)	HRVEILOA	56		0.01786		0.09589
+7)	HRVEILOA	56		0.01786		0.09589
+8)	HRVEIOLA	60		0.01667		0.10274
+9)	HRVEIOLA	60		0.01667		0.10274
+10)	HRVEIOLA	60		0.01667		0.10274
+
+**** Iteracion 19 ****
+Creacion de la Mating Pool
+0.320 =>	0	=>	HRVEIOLA
+0.448 =>	1	=>	HRVEILOA
+0.455 =>	2	=>	HRVEILOA
+0.233 =>	3	=>	HRVEIOLA
+0.287 =>	4	=>	HRVEIOLA
+0.150 =>	5	=>	HRVEILOA
+0.363 =>	6	=>	HRVEIOLA
+0.899 =>	7	=>	HRVEIOLA
+0.627 =>	8	=>	HRVEILOA
+0.622 =>	9	=>	HRVEILOA
+
+Seleccion de padres
+1 2
+HRVEILOA HRVEILOA
+cruzamiento
+0 1 3 4
+HRVEILOA - HRVEILOA
+sin mutacion 1
+mutacion 2
+posicion: 6 - 5 => HRVEIOLA
+
+Seleccion de padres
+3 2
+HRVEIOLA HRVEILOA
+cruzamiento
+0 3 4 7
+HRVEIOLA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+8 9
+HRVEILOA HRVEILOA
+cruzamiento
+3 4 6 7
+HRVEILOA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+5 0
+HRVEILOA HRVEIOLA
+cruzamiento
+2 3 4 6
+HRVEILOA - HRVEIOLA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+3 6
+HRVEIOLA HRVEIOLA
+cruzamiento
+1 2 4 6
+HRVEIOLA - HRVEIOLA
+sin mutacion 1
+sin mutacion 2
+
+Nueva Poblacion
+1)	HRVEILOA
+2)	HRVEIOLA
+3)	HRVEIOLA
+4)	HRVEILOA
+5)	HRVEILOA
+6)	HRVEILOA
+7)	HRVEILOA
+8)	HRVEIOLA
+9)	HRVEIOLA
+10)	HRVEIOLA
+
+Calcular el Fitness
+1)	HRVEILOA	56		0.01786		0.09655
+2)	HRVEIOLA	60		0.01667		0.10345
+3)	HRVEIOLA	60		0.01667		0.10345
+4)	HRVEILOA	56		0.01786		0.09655
+5)	HRVEILOA	56		0.01786		0.09655
+6)	HRVEILOA	56		0.01786		0.09655
+7)	HRVEILOA	56		0.01786		0.09655
+8)	HRVEIOLA	60		0.01667		0.10345
+9)	HRVEIOLA	60		0.01667		0.10345
+10)	HRVEIOLA	60		0.01667		0.10345
+
+**** Iteracion 20 ****
+Creacion de la Mating Pool
+0.320 =>	0	=>	HRVEILOA
+0.448 =>	1	=>	HRVEILOA
+0.455 =>	2	=>	HRVEILOA
+0.233 =>	3	=>	HRVEIOLA
+0.287 =>	4	=>	HRVEIOLA
+0.150 =>	5	=>	HRVEIOLA
+0.363 =>	6	=>	HRVEILOA
+0.899 =>	7	=>	HRVEIOLA
+0.627 =>	8	=>	HRVEILOA
+0.622 =>	9	=>	HRVEILOA
+
+Seleccion de padres
+1 2
+HRVEILOA HRVEILOA
+cruzamiento
+0 1 3 4
+HRVEILOA - HRVEILOA
+sin mutacion 1
+mutacion 2
+posicion: 6 - 5 => HRVEIOLA
+
+Seleccion de padres
+3 2
+HRVEIOLA HRVEILOA
+cruzamiento
+0 3 4 7
+HRVEIOLA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+8 9
+HRVEILOA HRVEILOA
+cruzamiento
+3 4 6 7
+HRVEILOA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+5 0
+HRVEIOLA HRVEILOA
+cruzamiento
+2 3 4 6
+HRVEIOLA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+3 6
+HRVEIOLA HRVEILOA
+cruzamiento
+1 2 4 6
+HRVEIOLA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Nueva Poblacion
+1)	HRVEILOA
+2)	HRVEIOLA
+3)	HRVEIOLA
+4)	HRVEILOA
+5)	HRVEILOA
+6)	HRVEILOA
+7)	HRVEIOLA
+8)	HRVEILOA
+9)	HRVEIOLA
+10)	HRVEILOA
+
+Calcular el Fitness
+1)	HRVEILOA	56		0.01786		0.09722
+2)	HRVEIOLA	60		0.01667		0.10417
+3)	HRVEIOLA	60		0.01667		0.10417
+4)	HRVEILOA	56		0.01786		0.09722
+5)	HRVEILOA	56		0.01786		0.09722
+6)	HRVEILOA	56		0.01786		0.09722
+7)	HRVEIOLA	60		0.01667		0.10417
+8)	HRVEILOA	56		0.01786		0.09722
+9)	HRVEIOLA	60		0.01667		0.10417
+10)	HRVEILOA	56		0.01786		0.09722
+
+**** Iteracion 21 ****
+Creacion de la Mating Pool
+0.320 =>	0	=>	HRVEILOA
+0.448 =>	1	=>	HRVEILOA
+0.455 =>	2	=>	HRVEILOA
+0.233 =>	3	=>	HRVEIOLA
+0.287 =>	4	=>	HRVEIOLA
+0.150 =>	5	=>	HRVEIOLA
+0.363 =>	6	=>	HRVEILOA
+0.899 =>	7	=>	HRVEIOLA
+0.627 =>	8	=>	HRVEIOLA
+0.622 =>	9	=>	HRVEIOLA
+
+Seleccion de padres
+1 2
+HRVEILOA HRVEILOA
+cruzamiento
+0 1 3 4
+HRVEILOA - HRVEILOA
+sin mutacion 1
+mutacion 2
+posicion: 6 - 5 => HRVEIOLA
+
+Seleccion de padres
+3 2
+HRVEIOLA HRVEILOA
+cruzamiento
+0 3 4 7
+HRVEIOLA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+8 9
+HRVEIOLA HRVEIOLA
+cruzamiento
+3 4 6 7
+HRVEIOLA - HRVEIOLA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+5 0
+HRVEIOLA HRVEILOA
+cruzamiento
+2 3 4 6
+HRVEIOLA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+3 6
+HRVEIOLA HRVEILOA
+cruzamiento
+1 2 4 6
+HRVEIOLA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Nueva Poblacion
+1)	HRVEILOA
+2)	HRVEIOLA
+3)	HRVEIOLA
+4)	HRVEILOA
+5)	HRVEIOLA
+6)	HRVEIOLA
+7)	HRVEIOLA
+8)	HRVEILOA
+9)	HRVEIOLA
+10)	HRVEILOA
+
+Calcular el Fitness
+1)	HRVEILOA	56		0.01786		0.09589
+2)	HRVEIOLA	60		0.01667		0.10274
+3)	HRVEIOLA	60		0.01667		0.10274
+4)	HRVEILOA	56		0.01786		0.09589
+5)	HRVEIOLA	60		0.01667		0.10274
+6)	HRVEIOLA	60		0.01667		0.10274
+7)	HRVEIOLA	60		0.01667		0.10274
+8)	HRVEILOA	56		0.01786		0.09589
+9)	HRVEIOLA	60		0.01667		0.10274
+10)	HRVEILOA	56		0.01786		0.09589
+
+**** Iteracion 22 ****
+Creacion de la Mating Pool
+0.320 =>	0	=>	HRVEILOA
+0.448 =>	1	=>	HRVEIOLA
+0.455 =>	2	=>	HRVEIOLA
+0.233 =>	3	=>	HRVEIOLA
+0.287 =>	4	=>	HRVEIOLA
+0.150 =>	5	=>	HRVEIOLA
+0.363 =>	6	=>	HRVEILOA
+0.899 =>	7	=>	HRVEIOLA
+0.627 =>	8	=>	HRVEIOLA
+0.622 =>	9	=>	HRVEIOLA
+
+Seleccion de padres
+1 2
+HRVEIOLA HRVEIOLA
+cruzamiento
+0 1 3 4
+HRVEIOLA - HRVEIOLA
+sin mutacion 1
+mutacion 2
+posicion: 6 - 5 => HRVEILOA
+
+Seleccion de padres
+3 2
+HRVEIOLA HRVEIOLA
+cruzamiento
+0 3 4 7
+HRVEIOLA - HRVEIOLA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+8 9
+HRVEIOLA HRVEIOLA
+cruzamiento
+3 4 6 7
+HRVEIOLA - HRVEIOLA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+5 0
+HRVEIOLA HRVEILOA
+cruzamiento
+2 3 4 6
+HRVEIOLA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+3 6
+HRVEIOLA HRVEILOA
+cruzamiento
+1 2 4 6
+HRVEIOLA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Nueva Poblacion
+1)	HRVEIOLA
+2)	HRVEILOA
+3)	HRVEIOLA
+4)	HRVEIOLA
+5)	HRVEIOLA
+6)	HRVEIOLA
+7)	HRVEIOLA
+8)	HRVEILOA
+9)	HRVEIOLA
+10)	HRVEILOA
+
+Calcular el Fitness
+1)	HRVEIOLA	60		0.01667		0.10204
+2)	HRVEILOA	56		0.01786		0.09524
+3)	HRVEIOLA	60		0.01667		0.10204
+4)	HRVEIOLA	60		0.01667		0.10204
+5)	HRVEIOLA	60		0.01667		0.10204
+6)	HRVEIOLA	60		0.01667		0.10204
+7)	HRVEIOLA	60		0.01667		0.10204
+8)	HRVEILOA	56		0.01786		0.09524
+9)	HRVEIOLA	60		0.01667		0.10204
+10)	HRVEILOA	56		0.01786		0.09524
+
+**** Iteracion 23 ****
+Creacion de la Mating Pool
+0.320 =>	0	=>	HRVEIOLA
+0.448 =>	1	=>	HRVEIOLA
+0.455 =>	2	=>	HRVEIOLA
+0.233 =>	3	=>	HRVEIOLA
+0.287 =>	4	=>	HRVEIOLA
+0.150 =>	5	=>	HRVEILOA
+0.363 =>	6	=>	HRVEIOLA
+0.899 =>	7	=>	HRVEIOLA
+0.627 =>	8	=>	HRVEIOLA
+0.622 =>	9	=>	HRVEIOLA
+
+Seleccion de padres
+1 2
+HRVEIOLA HRVEIOLA
+cruzamiento
+0 1 3 4
+HRVEIOLA - HRVEIOLA
+sin mutacion 1
+mutacion 2
+posicion: 6 - 5 => HRVEILOA
+
+Seleccion de padres
+3 2
+HRVEIOLA HRVEIOLA
+cruzamiento
+0 3 4 7
+HRVEIOLA - HRVEIOLA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+8 9
+HRVEIOLA HRVEIOLA
+cruzamiento
+3 4 6 7
+HRVEIOLA - HRVEIOLA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+5 0
+HRVEILOA HRVEIOLA
+cruzamiento
+2 3 4 6
+HRVEILOA - HRVEIOLA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+3 6
+HRVEIOLA HRVEIOLA
+cruzamiento
+1 2 4 6
+HRVEIOLA - HRVEIOLA
+sin mutacion 1
+sin mutacion 2
+
+Nueva Poblacion
+1)	HRVEIOLA
+2)	HRVEILOA
+3)	HRVEIOLA
+4)	HRVEIOLA
+5)	HRVEIOLA
+6)	HRVEIOLA
+7)	HRVEILOA
+8)	HRVEIOLA
+9)	HRVEIOLA
+10)	HRVEIOLA
+
+Calcular el Fitness
+1)	HRVEIOLA	60		0.01667		0.10135
+2)	HRVEILOA	56		0.01786		0.09459
+3)	HRVEIOLA	60		0.01667		0.10135
+4)	HRVEIOLA	60		0.01667		0.10135
+5)	HRVEIOLA	60		0.01667		0.10135
+6)	HRVEIOLA	60		0.01667		0.10135
+7)	HRVEILOA	56		0.01786		0.09459
+8)	HRVEIOLA	60		0.01667		0.10135
+9)	HRVEIOLA	60		0.01667		0.10135
+10)	HRVEIOLA	60		0.01667		0.10135
+
+**** Iteracion 24 ****
+Creacion de la Mating Pool
+0.320 =>	0	=>	HRVEIOLA
+0.448 =>	1	=>	HRVEIOLA
+0.455 =>	2	=>	HRVEIOLA
+0.233 =>	3	=>	HRVEIOLA
+0.287 =>	4	=>	HRVEIOLA
+0.150 =>	5	=>	HRVEILOA
+0.363 =>	6	=>	HRVEIOLA
+0.899 =>	7	=>	HRVEIOLA
+0.627 =>	8	=>	HRVEILOA
+0.622 =>	9	=>	HRVEILOA
+
+Seleccion de padres
+1 2
+HRVEIOLA HRVEIOLA
+cruzamiento
+0 1 3 4
+HRVEIOLA - HRVEIOLA
+sin mutacion 1
+mutacion 2
+posicion: 6 - 5 => HRVEILOA
+
+Seleccion de padres
+3 2
+HRVEIOLA HRVEIOLA
+cruzamiento
+0 3 4 7
+HRVEIOLA - HRVEIOLA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+8 9
+HRVEILOA HRVEILOA
+cruzamiento
+3 4 6 7
+HRVEILOA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+5 0
+HRVEILOA HRVEIOLA
+cruzamiento
+2 3 4 6
+HRVEILOA - HRVEIOLA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+3 6
+HRVEIOLA HRVEIOLA
+cruzamiento
+1 2 4 6
+HRVEIOLA - HRVEIOLA
+sin mutacion 1
+sin mutacion 2
+
+Nueva Poblacion
+1)	HRVEIOLA
+2)	HRVEILOA
+3)	HRVEIOLA
+4)	HRVEIOLA
+5)	HRVEILOA
+6)	HRVEILOA
+7)	HRVEILOA
+8)	HRVEIOLA
+9)	HRVEIOLA
+10)	HRVEIOLA
+
+Calcular el Fitness
+1)	HRVEIOLA	60		0.01667		0.10274
+2)	HRVEILOA	56		0.01786		0.09589
+3)	HRVEIOLA	60		0.01667		0.10274
+4)	HRVEIOLA	60		0.01667		0.10274
+5)	HRVEILOA	56		0.01786		0.09589
+6)	HRVEILOA	56		0.01786		0.09589
+7)	HRVEILOA	56		0.01786		0.09589
+8)	HRVEIOLA	60		0.01667		0.10274
+9)	HRVEIOLA	60		0.01667		0.10274
+10)	HRVEIOLA	60		0.01667		0.10274
+
+**** Iteracion 25 ****
+Creacion de la Mating Pool
+0.320 =>	0	=>	HRVEIOLA
+0.448 =>	1	=>	HRVEILOA
+0.455 =>	2	=>	HRVEILOA
+0.233 =>	3	=>	HRVEIOLA
+0.287 =>	4	=>	HRVEIOLA
+0.150 =>	5	=>	HRVEILOA
+0.363 =>	6	=>	HRVEIOLA
+0.899 =>	7	=>	HRVEIOLA
+0.627 =>	8	=>	HRVEILOA
+0.622 =>	9	=>	HRVEILOA
+
+Seleccion de padres
+1 2
+HRVEILOA HRVEILOA
+cruzamiento
+0 1 3 4
+HRVEILOA - HRVEILOA
+sin mutacion 1
+mutacion 2
+posicion: 6 - 5 => HRVEIOLA
+
+Seleccion de padres
+3 2
+HRVEIOLA HRVEILOA
+cruzamiento
+0 3 4 7
+HRVEIOLA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+8 9
+HRVEILOA HRVEILOA
+cruzamiento
+3 4 6 7
+HRVEILOA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+5 0
+HRVEILOA HRVEIOLA
+cruzamiento
+2 3 4 6
+HRVEILOA - HRVEIOLA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+3 6
+HRVEIOLA HRVEIOLA
+cruzamiento
+1 2 4 6
+HRVEIOLA - HRVEIOLA
+sin mutacion 1
+sin mutacion 2
+
+Nueva Poblacion
+1)	HRVEILOA
+2)	HRVEIOLA
+3)	HRVEIOLA
+4)	HRVEILOA
+5)	HRVEILOA
+6)	HRVEILOA
+7)	HRVEILOA
+8)	HRVEIOLA
+9)	HRVEIOLA
+10)	HRVEIOLA
+
+Calcular el Fitness
+1)	HRVEILOA	56		0.01786		0.09655
+2)	HRVEIOLA	60		0.01667		0.10345
+3)	HRVEIOLA	60		0.01667		0.10345
+4)	HRVEILOA	56		0.01786		0.09655
+5)	HRVEILOA	56		0.01786		0.09655
+6)	HRVEILOA	56		0.01786		0.09655
+7)	HRVEILOA	56		0.01786		0.09655
+8)	HRVEIOLA	60		0.01667		0.10345
+9)	HRVEIOLA	60		0.01667		0.10345
+10)	HRVEIOLA	60		0.01667		0.10345
+
+**** Iteracion 26 ****
+Creacion de la Mating Pool
+0.320 =>	0	=>	HRVEILOA
+0.448 =>	1	=>	HRVEILOA
+0.455 =>	2	=>	HRVEILOA
+0.233 =>	3	=>	HRVEIOLA
+0.287 =>	4	=>	HRVEIOLA
+0.150 =>	5	=>	HRVEIOLA
+0.363 =>	6	=>	HRVEILOA
+0.899 =>	7	=>	HRVEIOLA
+0.627 =>	8	=>	HRVEILOA
+0.622 =>	9	=>	HRVEILOA
+
+Seleccion de padres
+1 2
+HRVEILOA HRVEILOA
+cruzamiento
+0 1 3 4
+HRVEILOA - HRVEILOA
+sin mutacion 1
+mutacion 2
+posicion: 6 - 5 => HRVEIOLA
+
+Seleccion de padres
+3 2
+HRVEIOLA HRVEILOA
+cruzamiento
+0 3 4 7
+HRVEIOLA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+8 9
+HRVEILOA HRVEILOA
+cruzamiento
+3 4 6 7
+HRVEILOA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+5 0
+HRVEIOLA HRVEILOA
+cruzamiento
+2 3 4 6
+HRVEIOLA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+3 6
+HRVEIOLA HRVEILOA
+cruzamiento
+1 2 4 6
+HRVEIOLA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Nueva Poblacion
+1)	HRVEILOA
+2)	HRVEIOLA
+3)	HRVEIOLA
+4)	HRVEILOA
+5)	HRVEILOA
+6)	HRVEILOA
+7)	HRVEIOLA
+8)	HRVEILOA
+9)	HRVEIOLA
+10)	HRVEILOA
+
+Calcular el Fitness
+1)	HRVEILOA	56		0.01786		0.09722
+2)	HRVEIOLA	60		0.01667		0.10417
+3)	HRVEIOLA	60		0.01667		0.10417
+4)	HRVEILOA	56		0.01786		0.09722
+5)	HRVEILOA	56		0.01786		0.09722
+6)	HRVEILOA	56		0.01786		0.09722
+7)	HRVEIOLA	60		0.01667		0.10417
+8)	HRVEILOA	56		0.01786		0.09722
+9)	HRVEIOLA	60		0.01667		0.10417
+10)	HRVEILOA	56		0.01786		0.09722
+
+**** Iteracion 27 ****
+Creacion de la Mating Pool
+0.320 =>	0	=>	HRVEILOA
+0.448 =>	1	=>	HRVEILOA
+0.455 =>	2	=>	HRVEILOA
+0.233 =>	3	=>	HRVEIOLA
+0.287 =>	4	=>	HRVEIOLA
+0.150 =>	5	=>	HRVEIOLA
+0.363 =>	6	=>	HRVEILOA
+0.899 =>	7	=>	HRVEIOLA
+0.627 =>	8	=>	HRVEIOLA
+0.622 =>	9	=>	HRVEIOLA
+
+Seleccion de padres
+1 2
+HRVEILOA HRVEILOA
+cruzamiento
+0 1 3 4
+HRVEILOA - HRVEILOA
+sin mutacion 1
+mutacion 2
+posicion: 6 - 5 => HRVEIOLA
+
+Seleccion de padres
+3 2
+HRVEIOLA HRVEILOA
+cruzamiento
+0 3 4 7
+HRVEIOLA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+8 9
+HRVEIOLA HRVEIOLA
+cruzamiento
+3 4 6 7
+HRVEIOLA - HRVEIOLA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+5 0
+HRVEIOLA HRVEILOA
+cruzamiento
+2 3 4 6
+HRVEIOLA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+3 6
+HRVEIOLA HRVEILOA
+cruzamiento
+1 2 4 6
+HRVEIOLA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Nueva Poblacion
+1)	HRVEILOA
+2)	HRVEIOLA
+3)	HRVEIOLA
+4)	HRVEILOA
+5)	HRVEIOLA
+6)	HRVEIOLA
+7)	HRVEIOLA
+8)	HRVEILOA
+9)	HRVEIOLA
+10)	HRVEILOA
+
+Calcular el Fitness
+1)	HRVEILOA	56		0.01786		0.09589
+2)	HRVEIOLA	60		0.01667		0.10274
+3)	HRVEIOLA	60		0.01667		0.10274
+4)	HRVEILOA	56		0.01786		0.09589
+5)	HRVEIOLA	60		0.01667		0.10274
+6)	HRVEIOLA	60		0.01667		0.10274
+7)	HRVEIOLA	60		0.01667		0.10274
+8)	HRVEILOA	56		0.01786		0.09589
+9)	HRVEIOLA	60		0.01667		0.10274
+10)	HRVEILOA	56		0.01786		0.09589
+
+**** Iteracion 28 ****
+Creacion de la Mating Pool
+0.320 =>	0	=>	HRVEILOA
+0.448 =>	1	=>	HRVEIOLA
+0.455 =>	2	=>	HRVEIOLA
+0.233 =>	3	=>	HRVEIOLA
+0.287 =>	4	=>	HRVEIOLA
+0.150 =>	5	=>	HRVEIOLA
+0.363 =>	6	=>	HRVEILOA
+0.899 =>	7	=>	HRVEIOLA
+0.627 =>	8	=>	HRVEIOLA
+0.622 =>	9	=>	HRVEIOLA
+
+Seleccion de padres
+1 2
+HRVEIOLA HRVEIOLA
+cruzamiento
+0 1 3 4
+HRVEIOLA - HRVEIOLA
+sin mutacion 1
+mutacion 2
+posicion: 6 - 5 => HRVEILOA
+
+Seleccion de padres
+3 2
+HRVEIOLA HRVEIOLA
+cruzamiento
+0 3 4 7
+HRVEIOLA - HRVEIOLA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+8 9
+HRVEIOLA HRVEIOLA
+cruzamiento
+3 4 6 7
+HRVEIOLA - HRVEIOLA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+5 0
+HRVEIOLA HRVEILOA
+cruzamiento
+2 3 4 6
+HRVEIOLA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+3 6
+HRVEIOLA HRVEILOA
+cruzamiento
+1 2 4 6
+HRVEIOLA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Nueva Poblacion
+1)	HRVEIOLA
+2)	HRVEILOA
+3)	HRVEIOLA
+4)	HRVEIOLA
+5)	HRVEIOLA
+6)	HRVEIOLA
+7)	HRVEIOLA
+8)	HRVEILOA
+9)	HRVEIOLA
+10)	HRVEILOA
+
+Calcular el Fitness
+1)	HRVEIOLA	60		0.01667		0.10204
+2)	HRVEILOA	56		0.01786		0.09524
+3)	HRVEIOLA	60		0.01667		0.10204
+4)	HRVEIOLA	60		0.01667		0.10204
+5)	HRVEIOLA	60		0.01667		0.10204
+6)	HRVEIOLA	60		0.01667		0.10204
+7)	HRVEIOLA	60		0.01667		0.10204
+8)	HRVEILOA	56		0.01786		0.09524
+9)	HRVEIOLA	60		0.01667		0.10204
+10)	HRVEILOA	56		0.01786		0.09524
+
+**** Iteracion 29 ****
+Creacion de la Mating Pool
+0.320 =>	0	=>	HRVEIOLA
+0.448 =>	1	=>	HRVEIOLA
+0.455 =>	2	=>	HRVEIOLA
+0.233 =>	3	=>	HRVEIOLA
+0.287 =>	4	=>	HRVEIOLA
+0.150 =>	5	=>	HRVEILOA
+0.363 =>	6	=>	HRVEIOLA
+0.899 =>	7	=>	HRVEIOLA
+0.627 =>	8	=>	HRVEIOLA
+0.622 =>	9	=>	HRVEIOLA
+
+Seleccion de padres
+1 2
+HRVEIOLA HRVEIOLA
+cruzamiento
+0 1 3 4
+HRVEIOLA - HRVEIOLA
+sin mutacion 1
+mutacion 2
+posicion: 6 - 5 => HRVEILOA
+
+Seleccion de padres
+3 2
+HRVEIOLA HRVEIOLA
+cruzamiento
+0 3 4 7
+HRVEIOLA - HRVEIOLA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+8 9
+HRVEIOLA HRVEIOLA
+cruzamiento
+3 4 6 7
+HRVEIOLA - HRVEIOLA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+5 0
+HRVEILOA HRVEIOLA
+cruzamiento
+2 3 4 6
+HRVEILOA - HRVEIOLA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+3 6
+HRVEIOLA HRVEIOLA
+cruzamiento
+1 2 4 6
+HRVEIOLA - HRVEIOLA
+sin mutacion 1
+sin mutacion 2
+
+Nueva Poblacion
+1)	HRVEIOLA
+2)	HRVEILOA
+3)	HRVEIOLA
+4)	HRVEIOLA
+5)	HRVEIOLA
+6)	HRVEIOLA
+7)	HRVEILOA
+8)	HRVEIOLA
+9)	HRVEIOLA
+10)	HRVEIOLA
+
+Calcular el Fitness
+1)	HRVEIOLA	60		0.01667		0.10135
+2)	HRVEILOA	56		0.01786		0.09459
+3)	HRVEIOLA	60		0.01667		0.10135
+4)	HRVEIOLA	60		0.01667		0.10135
+5)	HRVEIOLA	60		0.01667		0.10135
+6)	HRVEIOLA	60		0.01667		0.10135
+7)	HRVEILOA	56		0.01786		0.09459
+8)	HRVEIOLA	60		0.01667		0.10135
+9)	HRVEIOLA	60		0.01667		0.10135
+10)	HRVEIOLA	60		0.01667		0.10135
+
+**** Iteracion 30 ****
+Creacion de la Mating Pool
+0.320 =>	0	=>	HRVEIOLA
+0.448 =>	1	=>	HRVEIOLA
+0.455 =>	2	=>	HRVEIOLA
+0.233 =>	3	=>	HRVEIOLA
+0.287 =>	4	=>	HRVEIOLA
+0.150 =>	5	=>	HRVEILOA
+0.363 =>	6	=>	HRVEIOLA
+0.899 =>	7	=>	HRVEIOLA
+0.627 =>	8	=>	HRVEILOA
+0.622 =>	9	=>	HRVEILOA
+
+Seleccion de padres
+1 2
+HRVEIOLA HRVEIOLA
+cruzamiento
+0 1 3 4
+HRVEIOLA - HRVEIOLA
+sin mutacion 1
+mutacion 2
+posicion: 6 - 5 => HRVEILOA
+
+Seleccion de padres
+3 2
+HRVEIOLA HRVEIOLA
+cruzamiento
+0 3 4 7
+HRVEIOLA - HRVEIOLA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+8 9
+HRVEILOA HRVEILOA
+cruzamiento
+3 4 6 7
+HRVEILOA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+5 0
+HRVEILOA HRVEIOLA
+cruzamiento
+2 3 4 6
+HRVEILOA - HRVEIOLA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+3 6
+HRVEIOLA HRVEIOLA
+cruzamiento
+1 2 4 6
+HRVEIOLA - HRVEIOLA
+sin mutacion 1
+sin mutacion 2
+
+Nueva Poblacion
+1)	HRVEIOLA
+2)	HRVEILOA
+3)	HRVEIOLA
+4)	HRVEIOLA
+5)	HRVEILOA
+6)	HRVEILOA
+7)	HRVEILOA
+8)	HRVEIOLA
+9)	HRVEIOLA
+10)	HRVEIOLA
+
+Calcular el Fitness
+1)	HRVEIOLA	60		0.01667		0.10274
+2)	HRVEILOA	56		0.01786		0.09589
+3)	HRVEIOLA	60		0.01667		0.10274
+4)	HRVEIOLA	60		0.01667		0.10274
+5)	HRVEILOA	56		0.01786		0.09589
+6)	HRVEILOA	56		0.01786		0.09589
+7)	HRVEILOA	56		0.01786		0.09589
+8)	HRVEIOLA	60		0.01667		0.10274
+9)	HRVEIOLA	60		0.01667		0.10274
+10)	HRVEIOLA	60		0.01667		0.10274
+
+**** Iteracion 31 ****
+Creacion de la Mating Pool
+0.320 =>	0	=>	HRVEIOLA
+0.448 =>	1	=>	HRVEILOA
+0.455 =>	2	=>	HRVEILOA
+0.233 =>	3	=>	HRVEIOLA
+0.287 =>	4	=>	HRVEIOLA
+0.150 =>	5	=>	HRVEILOA
+0.363 =>	6	=>	HRVEIOLA
+0.899 =>	7	=>	HRVEIOLA
+0.627 =>	8	=>	HRVEILOA
+0.622 =>	9	=>	HRVEILOA
+
+Seleccion de padres
+1 2
+HRVEILOA HRVEILOA
+cruzamiento
+0 1 3 4
+HRVEILOA - HRVEILOA
+sin mutacion 1
+mutacion 2
+posicion: 6 - 5 => HRVEIOLA
+
+Seleccion de padres
+3 2
+HRVEIOLA HRVEILOA
+cruzamiento
+0 3 4 7
+HRVEIOLA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+8 9
+HRVEILOA HRVEILOA
+cruzamiento
+3 4 6 7
+HRVEILOA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+5 0
+HRVEILOA HRVEIOLA
+cruzamiento
+2 3 4 6
+HRVEILOA - HRVEIOLA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+3 6
+HRVEIOLA HRVEIOLA
+cruzamiento
+1 2 4 6
+HRVEIOLA - HRVEIOLA
+sin mutacion 1
+sin mutacion 2
+
+Nueva Poblacion
+1)	HRVEILOA
+2)	HRVEIOLA
+3)	HRVEIOLA
+4)	HRVEILOA
+5)	HRVEILOA
+6)	HRVEILOA
+7)	HRVEILOA
+8)	HRVEIOLA
+9)	HRVEIOLA
+10)	HRVEIOLA
+
+Calcular el Fitness
+1)	HRVEILOA	56		0.01786		0.09655
+2)	HRVEIOLA	60		0.01667		0.10345
+3)	HRVEIOLA	60		0.01667		0.10345
+4)	HRVEILOA	56		0.01786		0.09655
+5)	HRVEILOA	56		0.01786		0.09655
+6)	HRVEILOA	56		0.01786		0.09655
+7)	HRVEILOA	56		0.01786		0.09655
+8)	HRVEIOLA	60		0.01667		0.10345
+9)	HRVEIOLA	60		0.01667		0.10345
+10)	HRVEIOLA	60		0.01667		0.10345
+
+**** Iteracion 32 ****
+Creacion de la Mating Pool
+0.320 =>	0	=>	HRVEILOA
+0.448 =>	1	=>	HRVEILOA
+0.455 =>	2	=>	HRVEILOA
+0.233 =>	3	=>	HRVEIOLA
+0.287 =>	4	=>	HRVEIOLA
+0.150 =>	5	=>	HRVEIOLA
+0.363 =>	6	=>	HRVEILOA
+0.899 =>	7	=>	HRVEIOLA
+0.627 =>	8	=>	HRVEILOA
+0.622 =>	9	=>	HRVEILOA
+
+Seleccion de padres
+1 2
+HRVEILOA HRVEILOA
+cruzamiento
+0 1 3 4
+HRVEILOA - HRVEILOA
+sin mutacion 1
+mutacion 2
+posicion: 6 - 5 => HRVEIOLA
+
+Seleccion de padres
+3 2
+HRVEIOLA HRVEILOA
+cruzamiento
+0 3 4 7
+HRVEIOLA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+8 9
+HRVEILOA HRVEILOA
+cruzamiento
+3 4 6 7
+HRVEILOA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+5 0
+HRVEIOLA HRVEILOA
+cruzamiento
+2 3 4 6
+HRVEIOLA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+3 6
+HRVEIOLA HRVEILOA
+cruzamiento
+1 2 4 6
+HRVEIOLA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Nueva Poblacion
+1)	HRVEILOA
+2)	HRVEIOLA
+3)	HRVEIOLA
+4)	HRVEILOA
+5)	HRVEILOA
+6)	HRVEILOA
+7)	HRVEIOLA
+8)	HRVEILOA
+9)	HRVEIOLA
+10)	HRVEILOA
+
+Calcular el Fitness
+1)	HRVEILOA	56		0.01786		0.09722
+2)	HRVEIOLA	60		0.01667		0.10417
+3)	HRVEIOLA	60		0.01667		0.10417
+4)	HRVEILOA	56		0.01786		0.09722
+5)	HRVEILOA	56		0.01786		0.09722
+6)	HRVEILOA	56		0.01786		0.09722
+7)	HRVEIOLA	60		0.01667		0.10417
+8)	HRVEILOA	56		0.01786		0.09722
+9)	HRVEIOLA	60		0.01667		0.10417
+10)	HRVEILOA	56		0.01786		0.09722
+
+**** Iteracion 33 ****
+Creacion de la Mating Pool
+0.320 =>	0	=>	HRVEILOA
+0.448 =>	1	=>	HRVEILOA
+0.455 =>	2	=>	HRVEILOA
+0.233 =>	3	=>	HRVEIOLA
+0.287 =>	4	=>	HRVEIOLA
+0.150 =>	5	=>	HRVEIOLA
+0.363 =>	6	=>	HRVEILOA
+0.899 =>	7	=>	HRVEIOLA
+0.627 =>	8	=>	HRVEIOLA
+0.622 =>	9	=>	HRVEIOLA
+
+Seleccion de padres
+1 2
+HRVEILOA HRVEILOA
+cruzamiento
+0 1 3 4
+HRVEILOA - HRVEILOA
+sin mutacion 1
+mutacion 2
+posicion: 6 - 5 => HRVEIOLA
+
+Seleccion de padres
+3 2
+HRVEIOLA HRVEILOA
+cruzamiento
+0 3 4 7
+HRVEIOLA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+8 9
+HRVEIOLA HRVEIOLA
+cruzamiento
+3 4 6 7
+HRVEIOLA - HRVEIOLA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+5 0
+HRVEIOLA HRVEILOA
+cruzamiento
+2 3 4 6
+HRVEIOLA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+3 6
+HRVEIOLA HRVEILOA
+cruzamiento
+1 2 4 6
+HRVEIOLA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Nueva Poblacion
+1)	HRVEILOA
+2)	HRVEIOLA
+3)	HRVEIOLA
+4)	HRVEILOA
+5)	HRVEIOLA
+6)	HRVEIOLA
+7)	HRVEIOLA
+8)	HRVEILOA
+9)	HRVEIOLA
+10)	HRVEILOA
+
+Calcular el Fitness
+1)	HRVEILOA	56		0.01786		0.09589
+2)	HRVEIOLA	60		0.01667		0.10274
+3)	HRVEIOLA	60		0.01667		0.10274
+4)	HRVEILOA	56		0.01786		0.09589
+5)	HRVEIOLA	60		0.01667		0.10274
+6)	HRVEIOLA	60		0.01667		0.10274
+7)	HRVEIOLA	60		0.01667		0.10274
+8)	HRVEILOA	56		0.01786		0.09589
+9)	HRVEIOLA	60		0.01667		0.10274
+10)	HRVEILOA	56		0.01786		0.09589
+
+**** Iteracion 34 ****
+Creacion de la Mating Pool
+0.320 =>	0	=>	HRVEILOA
+0.448 =>	1	=>	HRVEIOLA
+0.455 =>	2	=>	HRVEIOLA
+0.233 =>	3	=>	HRVEIOLA
+0.287 =>	4	=>	HRVEIOLA
+0.150 =>	5	=>	HRVEIOLA
+0.363 =>	6	=>	HRVEILOA
+0.899 =>	7	=>	HRVEIOLA
+0.627 =>	8	=>	HRVEIOLA
+0.622 =>	9	=>	HRVEIOLA
+
+Seleccion de padres
+1 2
+HRVEIOLA HRVEIOLA
+cruzamiento
+0 1 3 4
+HRVEIOLA - HRVEIOLA
+sin mutacion 1
+mutacion 2
+posicion: 6 - 5 => HRVEILOA
+
+Seleccion de padres
+3 2
+HRVEIOLA HRVEIOLA
+cruzamiento
+0 3 4 7
+HRVEIOLA - HRVEIOLA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+8 9
+HRVEIOLA HRVEIOLA
+cruzamiento
+3 4 6 7
+HRVEIOLA - HRVEIOLA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+5 0
+HRVEIOLA HRVEILOA
+cruzamiento
+2 3 4 6
+HRVEIOLA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+3 6
+HRVEIOLA HRVEILOA
+cruzamiento
+1 2 4 6
+HRVEIOLA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Nueva Poblacion
+1)	HRVEIOLA
+2)	HRVEILOA
+3)	HRVEIOLA
+4)	HRVEIOLA
+5)	HRVEIOLA
+6)	HRVEIOLA
+7)	HRVEIOLA
+8)	HRVEILOA
+9)	HRVEIOLA
+10)	HRVEILOA
+
+Calcular el Fitness
+1)	HRVEIOLA	60		0.01667		0.10204
+2)	HRVEILOA	56		0.01786		0.09524
+3)	HRVEIOLA	60		0.01667		0.10204
+4)	HRVEIOLA	60		0.01667		0.10204
+5)	HRVEIOLA	60		0.01667		0.10204
+6)	HRVEIOLA	60		0.01667		0.10204
+7)	HRVEIOLA	60		0.01667		0.10204
+8)	HRVEILOA	56		0.01786		0.09524
+9)	HRVEIOLA	60		0.01667		0.10204
+10)	HRVEILOA	56		0.01786		0.09524
+
+**** Iteracion 35 ****
+Creacion de la Mating Pool
+0.320 =>	0	=>	HRVEIOLA
+0.448 =>	1	=>	HRVEIOLA
+0.455 =>	2	=>	HRVEIOLA
+0.233 =>	3	=>	HRVEIOLA
+0.287 =>	4	=>	HRVEIOLA
+0.150 =>	5	=>	HRVEILOA
+0.363 =>	6	=>	HRVEIOLA
+0.899 =>	7	=>	HRVEIOLA
+0.627 =>	8	=>	HRVEIOLA
+0.622 =>	9	=>	HRVEIOLA
+
+Seleccion de padres
+1 2
+HRVEIOLA HRVEIOLA
+cruzamiento
+0 1 3 4
+HRVEIOLA - HRVEIOLA
+sin mutacion 1
+mutacion 2
+posicion: 6 - 5 => HRVEILOA
+
+Seleccion de padres
+3 2
+HRVEIOLA HRVEIOLA
+cruzamiento
+0 3 4 7
+HRVEIOLA - HRVEIOLA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+8 9
+HRVEIOLA HRVEIOLA
+cruzamiento
+3 4 6 7
+HRVEIOLA - HRVEIOLA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+5 0
+HRVEILOA HRVEIOLA
+cruzamiento
+2 3 4 6
+HRVEILOA - HRVEIOLA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+3 6
+HRVEIOLA HRVEIOLA
+cruzamiento
+1 2 4 6
+HRVEIOLA - HRVEIOLA
+sin mutacion 1
+sin mutacion 2
+
+Nueva Poblacion
+1)	HRVEIOLA
+2)	HRVEILOA
+3)	HRVEIOLA
+4)	HRVEIOLA
+5)	HRVEIOLA
+6)	HRVEIOLA
+7)	HRVEILOA
+8)	HRVEIOLA
+9)	HRVEIOLA
+10)	HRVEIOLA
+
+Calcular el Fitness
+1)	HRVEIOLA	60		0.01667		0.10135
+2)	HRVEILOA	56		0.01786		0.09459
+3)	HRVEIOLA	60		0.01667		0.10135
+4)	HRVEIOLA	60		0.01667		0.10135
+5)	HRVEIOLA	60		0.01667		0.10135
+6)	HRVEIOLA	60		0.01667		0.10135
+7)	HRVEILOA	56		0.01786		0.09459
+8)	HRVEIOLA	60		0.01667		0.10135
+9)	HRVEIOLA	60		0.01667		0.10135
+10)	HRVEIOLA	60		0.01667		0.10135
+
+**** Iteracion 36 ****
+Creacion de la Mating Pool
+0.320 =>	0	=>	HRVEIOLA
+0.448 =>	1	=>	HRVEIOLA
+0.455 =>	2	=>	HRVEIOLA
+0.233 =>	3	=>	HRVEIOLA
+0.287 =>	4	=>	HRVEIOLA
+0.150 =>	5	=>	HRVEILOA
+0.363 =>	6	=>	HRVEIOLA
+0.899 =>	7	=>	HRVEIOLA
+0.627 =>	8	=>	HRVEILOA
+0.622 =>	9	=>	HRVEILOA
+
+Seleccion de padres
+1 2
+HRVEIOLA HRVEIOLA
+cruzamiento
+0 1 3 4
+HRVEIOLA - HRVEIOLA
+sin mutacion 1
+mutacion 2
+posicion: 6 - 5 => HRVEILOA
+
+Seleccion de padres
+3 2
+HRVEIOLA HRVEIOLA
+cruzamiento
+0 3 4 7
+HRVEIOLA - HRVEIOLA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+8 9
+HRVEILOA HRVEILOA
+cruzamiento
+3 4 6 7
+HRVEILOA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+5 0
+HRVEILOA HRVEIOLA
+cruzamiento
+2 3 4 6
+HRVEILOA - HRVEIOLA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+3 6
+HRVEIOLA HRVEIOLA
+cruzamiento
+1 2 4 6
+HRVEIOLA - HRVEIOLA
+sin mutacion 1
+sin mutacion 2
+
+Nueva Poblacion
+1)	HRVEIOLA
+2)	HRVEILOA
+3)	HRVEIOLA
+4)	HRVEIOLA
+5)	HRVEILOA
+6)	HRVEILOA
+7)	HRVEILOA
+8)	HRVEIOLA
+9)	HRVEIOLA
+10)	HRVEIOLA
+
+Calcular el Fitness
+1)	HRVEIOLA	60		0.01667		0.10274
+2)	HRVEILOA	56		0.01786		0.09589
+3)	HRVEIOLA	60		0.01667		0.10274
+4)	HRVEIOLA	60		0.01667		0.10274
+5)	HRVEILOA	56		0.01786		0.09589
+6)	HRVEILOA	56		0.01786		0.09589
+7)	HRVEILOA	56		0.01786		0.09589
+8)	HRVEIOLA	60		0.01667		0.10274
+9)	HRVEIOLA	60		0.01667		0.10274
+10)	HRVEIOLA	60		0.01667		0.10274
+
+**** Iteracion 37 ****
+Creacion de la Mating Pool
+0.320 =>	0	=>	HRVEIOLA
+0.448 =>	1	=>	HRVEILOA
+0.455 =>	2	=>	HRVEILOA
+0.233 =>	3	=>	HRVEIOLA
+0.287 =>	4	=>	HRVEIOLA
+0.150 =>	5	=>	HRVEILOA
+0.363 =>	6	=>	HRVEIOLA
+0.899 =>	7	=>	HRVEIOLA
+0.627 =>	8	=>	HRVEILOA
+0.622 =>	9	=>	HRVEILOA
+
+Seleccion de padres
+1 2
+HRVEILOA HRVEILOA
+cruzamiento
+0 1 3 4
+HRVEILOA - HRVEILOA
+sin mutacion 1
+mutacion 2
+posicion: 6 - 5 => HRVEIOLA
+
+Seleccion de padres
+3 2
+HRVEIOLA HRVEILOA
+cruzamiento
+0 3 4 7
+HRVEIOLA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+8 9
+HRVEILOA HRVEILOA
+cruzamiento
+3 4 6 7
+HRVEILOA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+5 0
+HRVEILOA HRVEIOLA
+cruzamiento
+2 3 4 6
+HRVEILOA - HRVEIOLA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+3 6
+HRVEIOLA HRVEIOLA
+cruzamiento
+1 2 4 6
+HRVEIOLA - HRVEIOLA
+sin mutacion 1
+sin mutacion 2
+
+Nueva Poblacion
+1)	HRVEILOA
+2)	HRVEIOLA
+3)	HRVEIOLA
+4)	HRVEILOA
+5)	HRVEILOA
+6)	HRVEILOA
+7)	HRVEILOA
+8)	HRVEIOLA
+9)	HRVEIOLA
+10)	HRVEIOLA
+
+Calcular el Fitness
+1)	HRVEILOA	56		0.01786		0.09655
+2)	HRVEIOLA	60		0.01667		0.10345
+3)	HRVEIOLA	60		0.01667		0.10345
+4)	HRVEILOA	56		0.01786		0.09655
+5)	HRVEILOA	56		0.01786		0.09655
+6)	HRVEILOA	56		0.01786		0.09655
+7)	HRVEILOA	56		0.01786		0.09655
+8)	HRVEIOLA	60		0.01667		0.10345
+9)	HRVEIOLA	60		0.01667		0.10345
+10)	HRVEIOLA	60		0.01667		0.10345
+
+**** Iteracion 38 ****
+Creacion de la Mating Pool
+0.320 =>	0	=>	HRVEILOA
+0.448 =>	1	=>	HRVEILOA
+0.455 =>	2	=>	HRVEILOA
+0.233 =>	3	=>	HRVEIOLA
+0.287 =>	4	=>	HRVEIOLA
+0.150 =>	5	=>	HRVEIOLA
+0.363 =>	6	=>	HRVEILOA
+0.899 =>	7	=>	HRVEIOLA
+0.627 =>	8	=>	HRVEILOA
+0.622 =>	9	=>	HRVEILOA
+
+Seleccion de padres
+1 2
+HRVEILOA HRVEILOA
+cruzamiento
+0 1 3 4
+HRVEILOA - HRVEILOA
+sin mutacion 1
+mutacion 2
+posicion: 6 - 5 => HRVEIOLA
+
+Seleccion de padres
+3 2
+HRVEIOLA HRVEILOA
+cruzamiento
+0 3 4 7
+HRVEIOLA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+8 9
+HRVEILOA HRVEILOA
+cruzamiento
+3 4 6 7
+HRVEILOA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+5 0
+HRVEIOLA HRVEILOA
+cruzamiento
+2 3 4 6
+HRVEIOLA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+3 6
+HRVEIOLA HRVEILOA
+cruzamiento
+1 2 4 6
+HRVEIOLA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Nueva Poblacion
+1)	HRVEILOA
+2)	HRVEIOLA
+3)	HRVEIOLA
+4)	HRVEILOA
+5)	HRVEILOA
+6)	HRVEILOA
+7)	HRVEIOLA
+8)	HRVEILOA
+9)	HRVEIOLA
+10)	HRVEILOA
+
+Calcular el Fitness
+1)	HRVEILOA	56		0.01786		0.09722
+2)	HRVEIOLA	60		0.01667		0.10417
+3)	HRVEIOLA	60		0.01667		0.10417
+4)	HRVEILOA	56		0.01786		0.09722
+5)	HRVEILOA	56		0.01786		0.09722
+6)	HRVEILOA	56		0.01786		0.09722
+7)	HRVEIOLA	60		0.01667		0.10417
+8)	HRVEILOA	56		0.01786		0.09722
+9)	HRVEIOLA	60		0.01667		0.10417
+10)	HRVEILOA	56		0.01786		0.09722
+
+**** Iteracion 39 ****
+Creacion de la Mating Pool
+0.320 =>	0	=>	HRVEILOA
+0.448 =>	1	=>	HRVEILOA
+0.455 =>	2	=>	HRVEILOA
+0.233 =>	3	=>	HRVEIOLA
+0.287 =>	4	=>	HRVEIOLA
+0.150 =>	5	=>	HRVEIOLA
+0.363 =>	6	=>	HRVEILOA
+0.899 =>	7	=>	HRVEIOLA
+0.627 =>	8	=>	HRVEIOLA
+0.622 =>	9	=>	HRVEIOLA
+
+Seleccion de padres
+1 2
+HRVEILOA HRVEILOA
+cruzamiento
+0 1 3 4
+HRVEILOA - HRVEILOA
+sin mutacion 1
+mutacion 2
+posicion: 6 - 5 => HRVEIOLA
+
+Seleccion de padres
+3 2
+HRVEIOLA HRVEILOA
+cruzamiento
+0 3 4 7
+HRVEIOLA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+8 9
+HRVEIOLA HRVEIOLA
+cruzamiento
+3 4 6 7
+HRVEIOLA - HRVEIOLA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+5 0
+HRVEIOLA HRVEILOA
+cruzamiento
+2 3 4 6
+HRVEIOLA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+3 6
+HRVEIOLA HRVEILOA
+cruzamiento
+1 2 4 6
+HRVEIOLA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Nueva Poblacion
+1)	HRVEILOA
+2)	HRVEIOLA
+3)	HRVEIOLA
+4)	HRVEILOA
+5)	HRVEIOLA
+6)	HRVEIOLA
+7)	HRVEIOLA
+8)	HRVEILOA
+9)	HRVEIOLA
+10)	HRVEILOA
+
+Calcular el Fitness
+1)	HRVEILOA	56		0.01786		0.09589
+2)	HRVEIOLA	60		0.01667		0.10274
+3)	HRVEIOLA	60		0.01667		0.10274
+4)	HRVEILOA	56		0.01786		0.09589
+5)	HRVEIOLA	60		0.01667		0.10274
+6)	HRVEIOLA	60		0.01667		0.10274
+7)	HRVEIOLA	60		0.01667		0.10274
+8)	HRVEILOA	56		0.01786		0.09589
+9)	HRVEIOLA	60		0.01667		0.10274
+10)	HRVEILOA	56		0.01786		0.09589
+
+**** Iteracion 40 ****
+Creacion de la Mating Pool
+0.320 =>	0	=>	HRVEILOA
+0.448 =>	1	=>	HRVEIOLA
+0.455 =>	2	=>	HRVEIOLA
+0.233 =>	3	=>	HRVEIOLA
+0.287 =>	4	=>	HRVEIOLA
+0.150 =>	5	=>	HRVEIOLA
+0.363 =>	6	=>	HRVEILOA
+0.899 =>	7	=>	HRVEIOLA
+0.627 =>	8	=>	HRVEIOLA
+0.622 =>	9	=>	HRVEIOLA
+
+Seleccion de padres
+1 2
+HRVEIOLA HRVEIOLA
+cruzamiento
+0 1 3 4
+HRVEIOLA - HRVEIOLA
+sin mutacion 1
+mutacion 2
+posicion: 6 - 5 => HRVEILOA
+
+Seleccion de padres
+3 2
+HRVEIOLA HRVEIOLA
+cruzamiento
+0 3 4 7
+HRVEIOLA - HRVEIOLA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+8 9
+HRVEIOLA HRVEIOLA
+cruzamiento
+3 4 6 7
+HRVEIOLA - HRVEIOLA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+5 0
+HRVEIOLA HRVEILOA
+cruzamiento
+2 3 4 6
+HRVEIOLA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+3 6
+HRVEIOLA HRVEILOA
+cruzamiento
+1 2 4 6
+HRVEIOLA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Nueva Poblacion
+1)	HRVEIOLA
+2)	HRVEILOA
+3)	HRVEIOLA
+4)	HRVEIOLA
+5)	HRVEIOLA
+6)	HRVEIOLA
+7)	HRVEIOLA
+8)	HRVEILOA
+9)	HRVEIOLA
+10)	HRVEILOA
+
+Calcular el Fitness
+1)	HRVEIOLA	60		0.01667		0.10204
+2)	HRVEILOA	56		0.01786		0.09524
+3)	HRVEIOLA	60		0.01667		0.10204
+4)	HRVEIOLA	60		0.01667		0.10204
+5)	HRVEIOLA	60		0.01667		0.10204
+6)	HRVEIOLA	60		0.01667		0.10204
+7)	HRVEIOLA	60		0.01667		0.10204
+8)	HRVEILOA	56		0.01786		0.09524
+9)	HRVEIOLA	60		0.01667		0.10204
+10)	HRVEILOA	56		0.01786		0.09524
+
+**** Iteracion 41 ****
+Creacion de la Mating Pool
+0.320 =>	0	=>	HRVEIOLA
+0.448 =>	1	=>	HRVEIOLA
+0.455 =>	2	=>	HRVEIOLA
+0.233 =>	3	=>	HRVEIOLA
+0.287 =>	4	=>	HRVEIOLA
+0.150 =>	5	=>	HRVEILOA
+0.363 =>	6	=>	HRVEIOLA
+0.899 =>	7	=>	HRVEIOLA
+0.627 =>	8	=>	HRVEIOLA
+0.622 =>	9	=>	HRVEIOLA
+
+Seleccion de padres
+1 2
+HRVEIOLA HRVEIOLA
+cruzamiento
+0 1 3 4
+HRVEIOLA - HRVEIOLA
+sin mutacion 1
+mutacion 2
+posicion: 6 - 5 => HRVEILOA
+
+Seleccion de padres
+3 2
+HRVEIOLA HRVEIOLA
+cruzamiento
+0 3 4 7
+HRVEIOLA - HRVEIOLA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+8 9
+HRVEIOLA HRVEIOLA
+cruzamiento
+3 4 6 7
+HRVEIOLA - HRVEIOLA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+5 0
+HRVEILOA HRVEIOLA
+cruzamiento
+2 3 4 6
+HRVEILOA - HRVEIOLA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+3 6
+HRVEIOLA HRVEIOLA
+cruzamiento
+1 2 4 6
+HRVEIOLA - HRVEIOLA
+sin mutacion 1
+sin mutacion 2
+
+Nueva Poblacion
+1)	HRVEIOLA
+2)	HRVEILOA
+3)	HRVEIOLA
+4)	HRVEIOLA
+5)	HRVEIOLA
+6)	HRVEIOLA
+7)	HRVEILOA
+8)	HRVEIOLA
+9)	HRVEIOLA
+10)	HRVEIOLA
+
+Calcular el Fitness
+1)	HRVEIOLA	60		0.01667		0.10135
+2)	HRVEILOA	56		0.01786		0.09459
+3)	HRVEIOLA	60		0.01667		0.10135
+4)	HRVEIOLA	60		0.01667		0.10135
+5)	HRVEIOLA	60		0.01667		0.10135
+6)	HRVEIOLA	60		0.01667		0.10135
+7)	HRVEILOA	56		0.01786		0.09459
+8)	HRVEIOLA	60		0.01667		0.10135
+9)	HRVEIOLA	60		0.01667		0.10135
+10)	HRVEIOLA	60		0.01667		0.10135
+
+**** Iteracion 42 ****
+Creacion de la Mating Pool
+0.320 =>	0	=>	HRVEIOLA
+0.448 =>	1	=>	HRVEIOLA
+0.455 =>	2	=>	HRVEIOLA
+0.233 =>	3	=>	HRVEIOLA
+0.287 =>	4	=>	HRVEIOLA
+0.150 =>	5	=>	HRVEILOA
+0.363 =>	6	=>	HRVEIOLA
+0.899 =>	7	=>	HRVEIOLA
+0.627 =>	8	=>	HRVEILOA
+0.622 =>	9	=>	HRVEILOA
+
+Seleccion de padres
+1 2
+HRVEIOLA HRVEIOLA
+cruzamiento
+0 1 3 4
+HRVEIOLA - HRVEIOLA
+sin mutacion 1
+mutacion 2
+posicion: 6 - 5 => HRVEILOA
+
+Seleccion de padres
+3 2
+HRVEIOLA HRVEIOLA
+cruzamiento
+0 3 4 7
+HRVEIOLA - HRVEIOLA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+8 9
+HRVEILOA HRVEILOA
+cruzamiento
+3 4 6 7
+HRVEILOA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+5 0
+HRVEILOA HRVEIOLA
+cruzamiento
+2 3 4 6
+HRVEILOA - HRVEIOLA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+3 6
+HRVEIOLA HRVEIOLA
+cruzamiento
+1 2 4 6
+HRVEIOLA - HRVEIOLA
+sin mutacion 1
+sin mutacion 2
+
+Nueva Poblacion
+1)	HRVEIOLA
+2)	HRVEILOA
+3)	HRVEIOLA
+4)	HRVEIOLA
+5)	HRVEILOA
+6)	HRVEILOA
+7)	HRVEILOA
+8)	HRVEIOLA
+9)	HRVEIOLA
+10)	HRVEIOLA
+
+Calcular el Fitness
+1)	HRVEIOLA	60		0.01667		0.10274
+2)	HRVEILOA	56		0.01786		0.09589
+3)	HRVEIOLA	60		0.01667		0.10274
+4)	HRVEIOLA	60		0.01667		0.10274
+5)	HRVEILOA	56		0.01786		0.09589
+6)	HRVEILOA	56		0.01786		0.09589
+7)	HRVEILOA	56		0.01786		0.09589
+8)	HRVEIOLA	60		0.01667		0.10274
+9)	HRVEIOLA	60		0.01667		0.10274
+10)	HRVEIOLA	60		0.01667		0.10274
+
+**** Iteracion 43 ****
+Creacion de la Mating Pool
+0.320 =>	0	=>	HRVEIOLA
+0.448 =>	1	=>	HRVEILOA
+0.455 =>	2	=>	HRVEILOA
+0.233 =>	3	=>	HRVEIOLA
+0.287 =>	4	=>	HRVEIOLA
+0.150 =>	5	=>	HRVEILOA
+0.363 =>	6	=>	HRVEIOLA
+0.899 =>	7	=>	HRVEIOLA
+0.627 =>	8	=>	HRVEILOA
+0.622 =>	9	=>	HRVEILOA
+
+Seleccion de padres
+1 2
+HRVEILOA HRVEILOA
+cruzamiento
+0 1 3 4
+HRVEILOA - HRVEILOA
+sin mutacion 1
+mutacion 2
+posicion: 6 - 5 => HRVEIOLA
+
+Seleccion de padres
+3 2
+HRVEIOLA HRVEILOA
+cruzamiento
+0 3 4 7
+HRVEIOLA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+8 9
+HRVEILOA HRVEILOA
+cruzamiento
+3 4 6 7
+HRVEILOA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+5 0
+HRVEILOA HRVEIOLA
+cruzamiento
+2 3 4 6
+HRVEILOA - HRVEIOLA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+3 6
+HRVEIOLA HRVEIOLA
+cruzamiento
+1 2 4 6
+HRVEIOLA - HRVEIOLA
+sin mutacion 1
+sin mutacion 2
+
+Nueva Poblacion
+1)	HRVEILOA
+2)	HRVEIOLA
+3)	HRVEIOLA
+4)	HRVEILOA
+5)	HRVEILOA
+6)	HRVEILOA
+7)	HRVEILOA
+8)	HRVEIOLA
+9)	HRVEIOLA
+10)	HRVEIOLA
+
+Calcular el Fitness
+1)	HRVEILOA	56		0.01786		0.09655
+2)	HRVEIOLA	60		0.01667		0.10345
+3)	HRVEIOLA	60		0.01667		0.10345
+4)	HRVEILOA	56		0.01786		0.09655
+5)	HRVEILOA	56		0.01786		0.09655
+6)	HRVEILOA	56		0.01786		0.09655
+7)	HRVEILOA	56		0.01786		0.09655
+8)	HRVEIOLA	60		0.01667		0.10345
+9)	HRVEIOLA	60		0.01667		0.10345
+10)	HRVEIOLA	60		0.01667		0.10345
+
+**** Iteracion 44 ****
+Creacion de la Mating Pool
+0.320 =>	0	=>	HRVEILOA
+0.448 =>	1	=>	HRVEILOA
+0.455 =>	2	=>	HRVEILOA
+0.233 =>	3	=>	HRVEIOLA
+0.287 =>	4	=>	HRVEIOLA
+0.150 =>	5	=>	HRVEIOLA
+0.363 =>	6	=>	HRVEILOA
+0.899 =>	7	=>	HRVEIOLA
+0.627 =>	8	=>	HRVEILOA
+0.622 =>	9	=>	HRVEILOA
+
+Seleccion de padres
+1 2
+HRVEILOA HRVEILOA
+cruzamiento
+0 1 3 4
+HRVEILOA - HRVEILOA
+sin mutacion 1
+mutacion 2
+posicion: 6 - 5 => HRVEIOLA
+
+Seleccion de padres
+3 2
+HRVEIOLA HRVEILOA
+cruzamiento
+0 3 4 7
+HRVEIOLA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+8 9
+HRVEILOA HRVEILOA
+cruzamiento
+3 4 6 7
+HRVEILOA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+5 0
+HRVEIOLA HRVEILOA
+cruzamiento
+2 3 4 6
+HRVEIOLA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+3 6
+HRVEIOLA HRVEILOA
+cruzamiento
+1 2 4 6
+HRVEIOLA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Nueva Poblacion
+1)	HRVEILOA
+2)	HRVEIOLA
+3)	HRVEIOLA
+4)	HRVEILOA
+5)	HRVEILOA
+6)	HRVEILOA
+7)	HRVEIOLA
+8)	HRVEILOA
+9)	HRVEIOLA
+10)	HRVEILOA
+
+Calcular el Fitness
+1)	HRVEILOA	56		0.01786		0.09722
+2)	HRVEIOLA	60		0.01667		0.10417
+3)	HRVEIOLA	60		0.01667		0.10417
+4)	HRVEILOA	56		0.01786		0.09722
+5)	HRVEILOA	56		0.01786		0.09722
+6)	HRVEILOA	56		0.01786		0.09722
+7)	HRVEIOLA	60		0.01667		0.10417
+8)	HRVEILOA	56		0.01786		0.09722
+9)	HRVEIOLA	60		0.01667		0.10417
+10)	HRVEILOA	56		0.01786		0.09722
+
+**** Iteracion 45 ****
+Creacion de la Mating Pool
+0.320 =>	0	=>	HRVEILOA
+0.448 =>	1	=>	HRVEILOA
+0.455 =>	2	=>	HRVEILOA
+0.233 =>	3	=>	HRVEIOLA
+0.287 =>	4	=>	HRVEIOLA
+0.150 =>	5	=>	HRVEIOLA
+0.363 =>	6	=>	HRVEILOA
+0.899 =>	7	=>	HRVEIOLA
+0.627 =>	8	=>	HRVEIOLA
+0.622 =>	9	=>	HRVEIOLA
+
+Seleccion de padres
+1 2
+HRVEILOA HRVEILOA
+cruzamiento
+0 1 3 4
+HRVEILOA - HRVEILOA
+sin mutacion 1
+mutacion 2
+posicion: 6 - 5 => HRVEIOLA
+
+Seleccion de padres
+3 2
+HRVEIOLA HRVEILOA
+cruzamiento
+0 3 4 7
+HRVEIOLA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+8 9
+HRVEIOLA HRVEIOLA
+cruzamiento
+3 4 6 7
+HRVEIOLA - HRVEIOLA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+5 0
+HRVEIOLA HRVEILOA
+cruzamiento
+2 3 4 6
+HRVEIOLA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+3 6
+HRVEIOLA HRVEILOA
+cruzamiento
+1 2 4 6
+HRVEIOLA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Nueva Poblacion
+1)	HRVEILOA
+2)	HRVEIOLA
+3)	HRVEIOLA
+4)	HRVEILOA
+5)	HRVEIOLA
+6)	HRVEIOLA
+7)	HRVEIOLA
+8)	HRVEILOA
+9)	HRVEIOLA
+10)	HRVEILOA
+
+Calcular el Fitness
+1)	HRVEILOA	56		0.01786		0.09589
+2)	HRVEIOLA	60		0.01667		0.10274
+3)	HRVEIOLA	60		0.01667		0.10274
+4)	HRVEILOA	56		0.01786		0.09589
+5)	HRVEIOLA	60		0.01667		0.10274
+6)	HRVEIOLA	60		0.01667		0.10274
+7)	HRVEIOLA	60		0.01667		0.10274
+8)	HRVEILOA	56		0.01786		0.09589
+9)	HRVEIOLA	60		0.01667		0.10274
+10)	HRVEILOA	56		0.01786		0.09589
+
+**** Iteracion 46 ****
+Creacion de la Mating Pool
+0.320 =>	0	=>	HRVEILOA
+0.448 =>	1	=>	HRVEIOLA
+0.455 =>	2	=>	HRVEIOLA
+0.233 =>	3	=>	HRVEIOLA
+0.287 =>	4	=>	HRVEIOLA
+0.150 =>	5	=>	HRVEIOLA
+0.363 =>	6	=>	HRVEILOA
+0.899 =>	7	=>	HRVEIOLA
+0.627 =>	8	=>	HRVEIOLA
+0.622 =>	9	=>	HRVEIOLA
+
+Seleccion de padres
+1 2
+HRVEIOLA HRVEIOLA
+cruzamiento
+0 1 3 4
+HRVEIOLA - HRVEIOLA
+sin mutacion 1
+mutacion 2
+posicion: 6 - 5 => HRVEILOA
+
+Seleccion de padres
+3 2
+HRVEIOLA HRVEIOLA
+cruzamiento
+0 3 4 7
+HRVEIOLA - HRVEIOLA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+8 9
+HRVEIOLA HRVEIOLA
+cruzamiento
+3 4 6 7
+HRVEIOLA - HRVEIOLA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+5 0
+HRVEIOLA HRVEILOA
+cruzamiento
+2 3 4 6
+HRVEIOLA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+3 6
+HRVEIOLA HRVEILOA
+cruzamiento
+1 2 4 6
+HRVEIOLA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Nueva Poblacion
+1)	HRVEIOLA
+2)	HRVEILOA
+3)	HRVEIOLA
+4)	HRVEIOLA
+5)	HRVEIOLA
+6)	HRVEIOLA
+7)	HRVEIOLA
+8)	HRVEILOA
+9)	HRVEIOLA
+10)	HRVEILOA
+
+Calcular el Fitness
+1)	HRVEIOLA	60		0.01667		0.10204
+2)	HRVEILOA	56		0.01786		0.09524
+3)	HRVEIOLA	60		0.01667		0.10204
+4)	HRVEIOLA	60		0.01667		0.10204
+5)	HRVEIOLA	60		0.01667		0.10204
+6)	HRVEIOLA	60		0.01667		0.10204
+7)	HRVEIOLA	60		0.01667		0.10204
+8)	HRVEILOA	56		0.01786		0.09524
+9)	HRVEIOLA	60		0.01667		0.10204
+10)	HRVEILOA	56		0.01786		0.09524
+
+**** Iteracion 47 ****
+Creacion de la Mating Pool
+0.320 =>	0	=>	HRVEIOLA
+0.448 =>	1	=>	HRVEIOLA
+0.455 =>	2	=>	HRVEIOLA
+0.233 =>	3	=>	HRVEIOLA
+0.287 =>	4	=>	HRVEIOLA
+0.150 =>	5	=>	HRVEILOA
+0.363 =>	6	=>	HRVEIOLA
+0.899 =>	7	=>	HRVEIOLA
+0.627 =>	8	=>	HRVEIOLA
+0.622 =>	9	=>	HRVEIOLA
+
+Seleccion de padres
+1 2
+HRVEIOLA HRVEIOLA
+cruzamiento
+0 1 3 4
+HRVEIOLA - HRVEIOLA
+sin mutacion 1
+mutacion 2
+posicion: 6 - 5 => HRVEILOA
+
+Seleccion de padres
+3 2
+HRVEIOLA HRVEIOLA
+cruzamiento
+0 3 4 7
+HRVEIOLA - HRVEIOLA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+8 9
+HRVEIOLA HRVEIOLA
+cruzamiento
+3 4 6 7
+HRVEIOLA - HRVEIOLA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+5 0
+HRVEILOA HRVEIOLA
+cruzamiento
+2 3 4 6
+HRVEILOA - HRVEIOLA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+3 6
+HRVEIOLA HRVEIOLA
+cruzamiento
+1 2 4 6
+HRVEIOLA - HRVEIOLA
+sin mutacion 1
+sin mutacion 2
+
+Nueva Poblacion
+1)	HRVEIOLA
+2)	HRVEILOA
+3)	HRVEIOLA
+4)	HRVEIOLA
+5)	HRVEIOLA
+6)	HRVEIOLA
+7)	HRVEILOA
+8)	HRVEIOLA
+9)	HRVEIOLA
+10)	HRVEIOLA
+
+Calcular el Fitness
+1)	HRVEIOLA	60		0.01667		0.10135
+2)	HRVEILOA	56		0.01786		0.09459
+3)	HRVEIOLA	60		0.01667		0.10135
+4)	HRVEIOLA	60		0.01667		0.10135
+5)	HRVEIOLA	60		0.01667		0.10135
+6)	HRVEIOLA	60		0.01667		0.10135
+7)	HRVEILOA	56		0.01786		0.09459
+8)	HRVEIOLA	60		0.01667		0.10135
+9)	HRVEIOLA	60		0.01667		0.10135
+10)	HRVEIOLA	60		0.01667		0.10135
+
+**** Iteracion 48 ****
+Creacion de la Mating Pool
+0.320 =>	0	=>	HRVEIOLA
+0.448 =>	1	=>	HRVEIOLA
+0.455 =>	2	=>	HRVEIOLA
+0.233 =>	3	=>	HRVEIOLA
+0.287 =>	4	=>	HRVEIOLA
+0.150 =>	5	=>	HRVEILOA
+0.363 =>	6	=>	HRVEIOLA
+0.899 =>	7	=>	HRVEIOLA
+0.627 =>	8	=>	HRVEILOA
+0.622 =>	9	=>	HRVEILOA
+
+Seleccion de padres
+1 2
+HRVEIOLA HRVEIOLA
+cruzamiento
+0 1 3 4
+HRVEIOLA - HRVEIOLA
+sin mutacion 1
+mutacion 2
+posicion: 6 - 5 => HRVEILOA
+
+Seleccion de padres
+3 2
+HRVEIOLA HRVEIOLA
+cruzamiento
+0 3 4 7
+HRVEIOLA - HRVEIOLA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+8 9
+HRVEILOA HRVEILOA
+cruzamiento
+3 4 6 7
+HRVEILOA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+5 0
+HRVEILOA HRVEIOLA
+cruzamiento
+2 3 4 6
+HRVEILOA - HRVEIOLA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+3 6
+HRVEIOLA HRVEIOLA
+cruzamiento
+1 2 4 6
+HRVEIOLA - HRVEIOLA
+sin mutacion 1
+sin mutacion 2
+
+Nueva Poblacion
+1)	HRVEIOLA
+2)	HRVEILOA
+3)	HRVEIOLA
+4)	HRVEIOLA
+5)	HRVEILOA
+6)	HRVEILOA
+7)	HRVEILOA
+8)	HRVEIOLA
+9)	HRVEIOLA
+10)	HRVEIOLA
+
+Calcular el Fitness
+1)	HRVEIOLA	60		0.01667		0.10274
+2)	HRVEILOA	56		0.01786		0.09589
+3)	HRVEIOLA	60		0.01667		0.10274
+4)	HRVEIOLA	60		0.01667		0.10274
+5)	HRVEILOA	56		0.01786		0.09589
+6)	HRVEILOA	56		0.01786		0.09589
+7)	HRVEILOA	56		0.01786		0.09589
+8)	HRVEIOLA	60		0.01667		0.10274
+9)	HRVEIOLA	60		0.01667		0.10274
+10)	HRVEIOLA	60		0.01667		0.10274
+
+**** Iteracion 49 ****
+Creacion de la Mating Pool
+0.320 =>	0	=>	HRVEIOLA
+0.448 =>	1	=>	HRVEILOA
+0.455 =>	2	=>	HRVEILOA
+0.233 =>	3	=>	HRVEIOLA
+0.287 =>	4	=>	HRVEIOLA
+0.150 =>	5	=>	HRVEILOA
+0.363 =>	6	=>	HRVEIOLA
+0.899 =>	7	=>	HRVEIOLA
+0.627 =>	8	=>	HRVEILOA
+0.622 =>	9	=>	HRVEILOA
+
+Seleccion de padres
+1 2
+HRVEILOA HRVEILOA
+cruzamiento
+0 1 3 4
+HRVEILOA - HRVEILOA
+sin mutacion 1
+mutacion 2
+posicion: 6 - 5 => HRVEIOLA
+
+Seleccion de padres
+3 2
+HRVEIOLA HRVEILOA
+cruzamiento
+0 3 4 7
+HRVEIOLA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+8 9
+HRVEILOA HRVEILOA
+cruzamiento
+3 4 6 7
+HRVEILOA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+5 0
+HRVEILOA HRVEIOLA
+cruzamiento
+2 3 4 6
+HRVEILOA - HRVEIOLA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+3 6
+HRVEIOLA HRVEIOLA
+cruzamiento
+1 2 4 6
+HRVEIOLA - HRVEIOLA
+sin mutacion 1
+sin mutacion 2
+
+Nueva Poblacion
+1)	HRVEILOA
+2)	HRVEIOLA
+3)	HRVEIOLA
+4)	HRVEILOA
+5)	HRVEILOA
+6)	HRVEILOA
+7)	HRVEILOA
+8)	HRVEIOLA
+9)	HRVEIOLA
+10)	HRVEIOLA
+
+Calcular el Fitness
+1)	HRVEILOA	56		0.01786		0.09655
+2)	HRVEIOLA	60		0.01667		0.10345
+3)	HRVEIOLA	60		0.01667		0.10345
+4)	HRVEILOA	56		0.01786		0.09655
+5)	HRVEILOA	56		0.01786		0.09655
+6)	HRVEILOA	56		0.01786		0.09655
+7)	HRVEILOA	56		0.01786		0.09655
+8)	HRVEIOLA	60		0.01667		0.10345
+9)	HRVEIOLA	60		0.01667		0.10345
+10)	HRVEIOLA	60		0.01667		0.10345
+
+**** Iteracion 50 ****
+Creacion de la Mating Pool
+0.320 =>	0	=>	HRVEILOA
+0.448 =>	1	=>	HRVEILOA
+0.455 =>	2	=>	HRVEILOA
+0.233 =>	3	=>	HRVEIOLA
+0.287 =>	4	=>	HRVEIOLA
+0.150 =>	5	=>	HRVEIOLA
+0.363 =>	6	=>	HRVEILOA
+0.899 =>	7	=>	HRVEIOLA
+0.627 =>	8	=>	HRVEILOA
+0.622 =>	9	=>	HRVEILOA
+
+Seleccion de padres
+1 2
+HRVEILOA HRVEILOA
+cruzamiento
+0 1 3 4
+HRVEILOA - HRVEILOA
+sin mutacion 1
+mutacion 2
+posicion: 6 - 5 => HRVEIOLA
+
+Seleccion de padres
+3 2
+HRVEIOLA HRVEILOA
+cruzamiento
+0 3 4 7
+HRVEIOLA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+8 9
+HRVEILOA HRVEILOA
+cruzamiento
+3 4 6 7
+HRVEILOA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+5 0
+HRVEIOLA HRVEILOA
+cruzamiento
+2 3 4 6
+HRVEIOLA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Seleccion de padres
+3 6
+HRVEIOLA HRVEILOA
+cruzamiento
+1 2 4 6
+HRVEIOLA - HRVEILOA
+sin mutacion 1
+sin mutacion 2
+
+Nueva Poblacion
+1)	HRVEILOA
+2)	HRVEIOLA
+3)	HRVEIOLA
+4)	HRVEILOA
+5)	HRVEILOA
+6)	HRVEILOA
+7)	HRVEIOLA
+8)	HRVEILOA
+9)	HRVEIOLA
+10)	HRVEILOA
+
+Calcular el Fitness
+1)	HRVEILOA	56		0.01786		0.09722
+2)	HRVEIOLA	60		0.01667		0.10417
+3)	HRVEIOLA	60		0.01667		0.10417
+4)	HRVEILOA	56		0.01786		0.09722
+5)	HRVEILOA	56		0.01786		0.09722
+6)	HRVEILOA	56		0.01786		0.09722
+7)	HRVEIOLA	60		0.01667		0.10417
+8)	HRVEILOA	56		0.01786		0.09722
+9)	HRVEIOLA	60		0.01667		0.10417
+10)	HRVEILOA	56		0.01786		0.09722
+
+termino

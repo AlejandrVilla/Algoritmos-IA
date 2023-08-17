@@ -1,0 +1,11 @@
+Para test 1
+Valor predicho SARS-CoV1
+Valor real SARS-CoV1
+Para test 2
+Valor predicho Covid-19
+Valor real Covid-19
+Para test 3
+Valor predicho SARS-CoV1
+Valor real SARS-CoV1
+
+Tasa de exito = 100%

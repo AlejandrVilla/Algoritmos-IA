@@ -1,0 +1,10 @@
+iris-5-fold/iris-5-1tra.dat
+iris-5-fold/iris-5-1tst.dat
+iris-5-fold/iris-5-2tra.dat
+iris-5-fold/iris-5-2tst.dat
+iris-5-fold/iris-5-3tra.dat
+iris-5-fold/iris-5-3tst.dat
+iris-5-fold/iris-5-4tra.dat
+iris-5-fold/iris-5-4tst.dat
+iris-5-fold/iris-5-5tra.dat
+iris-5-fold/iris-5-5tst.dat

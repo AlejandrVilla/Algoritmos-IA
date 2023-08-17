@@ -1,0 +1,145 @@
+ALEJANDRO VILLA HERRERA
+AGORITMO ID3
+
+CONJUNTO DE ENTRENAMIENTO
+fever cough fatigue pain disease 
+yes severe mild mild Covid-19 
+yes moderate mild moderate Covid-19 
+no moderate mild moderate SARS-CoV1 
+no severe mild mild Covid-19 
+yes moderate mild moderate Covid-19 
+yes severe moderate moderate SARS-CoV1 
+no moderate moderate moderate SARS-CoV1 
+no moderate severe mild Covid-19 
+yes moderate severe moderate SARS-CoV1 
+no moderate severe severe SARS-CoV1 
+no severe mild severe Covid-19 
+no mild mild severe SARS-CoV1 
+
+CONJUNTO DE TEST
+yes moderate moderate severe SARS-CoV1 
+yes severe mild moderate Covid-19 
+no moderate mild severe SARS-CoV1 
+
+caracteristica: pain
+padre: pain
+entropia: 1
+ganancia: 0.311278
+distribucion = 2
+Covid-19 6
+SARS-CoV1 6
+hijos = 3
+mild 3
+moderate 6
+severe 3
+
+atributo mild
+caracteristica: 
+padre: pain
+entropia: 0
+ganancia: 0
+distribucion = 1
+Covid-19 3
+hijos = 0
+
+atributo moderate
+caracteristica: fatigue
+padre: pain
+entropia: 0.918296
+ganancia: 0.459148
+distribucion = 2
+Covid-19 2
+SARS-CoV1 4
+hijos = 3
+mild 3
+moderate 2
+severe 1
+
+atributo mild
+caracteristica: fever
+padre: fatigue
+entropia: 0.918296
+ganancia: 0.918296
+distribucion = 2
+Covid-19 2
+SARS-CoV1 1
+hijos = 2
+no 1
+yes 2
+
+atributo no
+caracteristica: 
+padre: fever
+entropia: 0
+ganancia: 0
+distribucion = 1
+SARS-CoV1 1
+hijos = 0
+
+atributo yes
+caracteristica: 
+padre: fever
+entropia: 0
+ganancia: 0
+distribucion = 1
+Covid-19 2
+hijos = 0
+
+atributo moderate
+caracteristica: 
+padre: fatigue
+entropia: 0
+ganancia: 0
+distribucion = 1
+SARS-CoV1 2
+hijos = 0
+
+atributo severe
+caracteristica: 
+padre: fatigue
+entropia: 0
+ganancia: 0
+distribucion = 1
+SARS-CoV1 1
+hijos = 0
+
+atributo severe
+caracteristica: cough
+padre: pain
+entropia: 0.918296
+ganancia: 0.918296
+distribucion = 2
+Covid-19 1
+SARS-CoV1 2
+hijos = 3
+mild 1
+moderate 1
+severe 1
+
+atributo mild
+caracteristica: 
+padre: cough
+entropia: 0
+ganancia: 0
+distribucion = 1
+SARS-CoV1 1
+hijos = 0
+
+atributo moderate
+caracteristica: 
+padre: cough
+entropia: 0
+ganancia: 0
+distribucion = 1
+SARS-CoV1 1
+hijos = 0
+
+atributo severe
+caracteristica: 
+padre: cough
+entropia: 0
+ganancia: 0
+distribucion = 1
+Covid-19 1
+hijos = 0
+

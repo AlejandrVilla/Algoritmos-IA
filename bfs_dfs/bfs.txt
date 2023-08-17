@@ -1,0 +1,39 @@
+BFS - Nodo seleccionado Huan
+Alejandro Villa Herrera
+
+Paso 1
+frontier = {Lim }
+reached = {Lim }
+____________________________________________
+
+Paso 2
+frontier = {Anc Jun Ica }
+reached = {Lim Anc Jun Ica }
+____________________________________________
+
+Paso 3
+frontier = {Jun Ica Lali SanM }
+reached = {Lim Anc Jun Ica Lali SanM }
+____________________________________________
+
+Paso 4
+frontier = {Ica Lali SanM Pasco Cusco }
+reached = {Lim Anc Jun Ica Lali SanM Pasco Cusco }
+____________________________________________
+
+Paso 5
+frontier = {Lali SanM Pasco Cusco Ayac Aqp }
+reached = {Lim Anc Jun Ica Lali SanM Pasco Cusco Ayac Aqp }
+____________________________________________
+
+Paso 6
+frontier = {SanM Pasco Cusco Ayac Aqp Cajam Lamb }
+reached = {Lim Anc Jun Ica Lali SanM Pasco Cusco Ayac Aqp Cajam Lamb }
+____________________________________________
+
+Paso 7
+frontier = {Pasco Cusco Ayac Aqp Cajam Lamb Amz Lor }
+reached = {Lim Anc Jun Ica Lali SanM Pasco Cusco Ayac Aqp Cajam Lamb Amz Lor }
+____________________________________________
+
+Pasco->Huan

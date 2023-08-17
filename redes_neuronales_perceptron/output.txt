@@ -1,0 +1,385 @@
+ALEJANDRO ANTONIO VILLA HERRERA
+REDES NEURONALES - PERCEPTRON
+CONJUNTO DE DATOS
+X1	X2	y
+0	0	0	
+0	1	0	
+1	0	0	
+1	1	1	
+
+EPOCA 1
+Pesos
+W0 = 0.2
+W1 = -0.1
+W2 = 0.3
+
+Dato 1
+x1 = 0
+x2 = 0
+X1 AND X2 = 0
+Funcion escalon = 1
+Salida incorrecta, se ajustan los pesos
+Error = -1
+Tasa de aprendizaje = 0.2
+Nuevos pesos
+W0 = 0
+W1 = -0.1
+W2 = 0.3
+
+Dato 2
+x1 = 0
+x2 = 1
+X1 AND X2 = 0
+Funcion escalon = 1
+Salida incorrecta, se ajustan los pesos
+Error = -1
+Tasa de aprendizaje = 0.2
+Nuevos pesos
+W0 = -0.2
+W1 = -0.1
+W2 = 0.1
+
+Dato 3
+x1 = 1
+x2 = 0
+X1 AND X2 = 0
+Funcion escalon = 0
+Salita correcta, los pesos no cambian
+
+Dato 4
+x1 = 1
+x2 = 1
+X1 AND X2 = 1
+Funcion escalon = 0
+Salida incorrecta, se ajustan los pesos
+Error = 1
+Tasa de aprendizaje = 0.2
+Nuevos pesos
+W0 = 0
+W1 = 0.1
+W2 = 0.3
+Final de epoca
+
+EPOCA 2
+Pesos
+W0 = 0
+W1 = 0.1
+W2 = 0.3
+
+Dato 1
+x1 = 0
+x2 = 0
+X1 AND X2 = 0
+Funcion escalon = 0
+Salita correcta, los pesos no cambian
+
+Dato 2
+x1 = 0
+x2 = 1
+X1 AND X2 = 0
+Funcion escalon = 1
+Salida incorrecta, se ajustan los pesos
+Error = -1
+Tasa de aprendizaje = 0.2
+Nuevos pesos
+W0 = -0.2
+W1 = 0.1
+W2 = 0.1
+
+Dato 3
+x1 = 1
+x2 = 0
+X1 AND X2 = 0
+Funcion escalon = 0
+Salita correcta, los pesos no cambian
+
+Dato 4
+x1 = 1
+x2 = 1
+X1 AND X2 = 1
+Funcion escalon = 0
+Salida incorrecta, se ajustan los pesos
+Error = 1
+Tasa de aprendizaje = 0.2
+Nuevos pesos
+W0 = 0
+W1 = 0.3
+W2 = 0.3
+Final de epoca
+
+EPOCA 3
+Pesos
+W0 = 0
+W1 = 0.3
+W2 = 0.3
+
+Dato 1
+x1 = 0
+x2 = 0
+X1 AND X2 = 0
+Funcion escalon = 0
+Salita correcta, los pesos no cambian
+
+Dato 2
+x1 = 0
+x2 = 1
+X1 AND X2 = 0
+Funcion escalon = 1
+Salida incorrecta, se ajustan los pesos
+Error = -1
+Tasa de aprendizaje = 0.2
+Nuevos pesos
+W0 = -0.2
+W1 = 0.3
+W2 = 0.1
+
+Dato 3
+x1 = 1
+x2 = 0
+X1 AND X2 = 0
+Funcion escalon = 1
+Salida incorrecta, se ajustan los pesos
+Error = -1
+Tasa de aprendizaje = 0.2
+Nuevos pesos
+W0 = -0.4
+W1 = 0.1
+W2 = 0.1
+
+Dato 4
+x1 = 1
+x2 = 1
+X1 AND X2 = 1
+Funcion escalon = 0
+Salida incorrecta, se ajustan los pesos
+Error = 1
+Tasa de aprendizaje = 0.2
+Nuevos pesos
+W0 = -0.2
+W1 = 0.3
+W2 = 0.3
+Final de epoca
+
+EPOCA 4
+Pesos
+W0 = -0.2
+W1 = 0.3
+W2 = 0.3
+
+Dato 1
+x1 = 0
+x2 = 0
+X1 AND X2 = 0
+Funcion escalon = 0
+Salita correcta, los pesos no cambian
+
+Dato 2
+x1 = 0
+x2 = 1
+X1 AND X2 = 0
+Funcion escalon = 1
+Salida incorrecta, se ajustan los pesos
+Error = -1
+Tasa de aprendizaje = 0.2
+Nuevos pesos
+W0 = -0.4
+W1 = 0.3
+W2 = 0.1
+
+Dato 3
+x1 = 1
+x2 = 0
+X1 AND X2 = 0
+Funcion escalon = 0
+Salita correcta, los pesos no cambian
+
+Dato 4
+x1 = 1
+x2 = 1
+X1 AND X2 = 1
+Funcion escalon = 0
+Salida incorrecta, se ajustan los pesos
+Error = 1
+Tasa de aprendizaje = 0.2
+Nuevos pesos
+W0 = -0.2
+W1 = 0.5
+W2 = 0.3
+Final de epoca
+
+EPOCA 5
+Pesos
+W0 = -0.2
+W1 = 0.5
+W2 = 0.3
+
+Dato 1
+x1 = 0
+x2 = 0
+X1 AND X2 = 0
+Funcion escalon = 0
+Salita correcta, los pesos no cambian
+
+Dato 2
+x1 = 0
+x2 = 1
+X1 AND X2 = 0
+Funcion escalon = 1
+Salida incorrecta, se ajustan los pesos
+Error = -1
+Tasa de aprendizaje = 0.2
+Nuevos pesos
+W0 = -0.4
+W1 = 0.5
+W2 = 0.1
+
+Dato 3
+x1 = 1
+x2 = 0
+X1 AND X2 = 0
+Funcion escalon = 1
+Salida incorrecta, se ajustan los pesos
+Error = -1
+Tasa de aprendizaje = 0.2
+Nuevos pesos
+W0 = -0.6
+W1 = 0.3
+W2 = 0.1
+
+Dato 4
+x1 = 1
+x2 = 1
+X1 AND X2 = 1
+Funcion escalon = 0
+Salida incorrecta, se ajustan los pesos
+Error = 1
+Tasa de aprendizaje = 0.2
+Nuevos pesos
+W0 = -0.4
+W1 = 0.5
+W2 = 0.3
+Final de epoca
+
+EPOCA 6
+Pesos
+W0 = -0.4
+W1 = 0.5
+W2 = 0.3
+
+Dato 1
+x1 = 0
+x2 = 0
+X1 AND X2 = 0
+Funcion escalon = 0
+Salita correcta, los pesos no cambian
+
+Dato 2
+x1 = 0
+x2 = 1
+X1 AND X2 = 0
+Funcion escalon = 0
+Salita correcta, los pesos no cambian
+
+Dato 3
+x1 = 1
+x2 = 0
+X1 AND X2 = 0
+Funcion escalon = 1
+Salida incorrecta, se ajustan los pesos
+Error = -1
+Tasa de aprendizaje = 0.2
+Nuevos pesos
+W0 = -0.6
+W1 = 0.3
+W2 = 0.3
+
+Dato 4
+x1 = 1
+x2 = 1
+X1 AND X2 = 1
+Funcion escalon = 0
+Salida incorrecta, se ajustan los pesos
+Error = 1
+Tasa de aprendizaje = 0.2
+Nuevos pesos
+W0 = -0.4
+W1 = 0.5
+W2 = 0.5
+Final de epoca
+
+EPOCA 7
+Pesos
+W0 = -0.4
+W1 = 0.5
+W2 = 0.5
+
+Dato 1
+x1 = 0
+x2 = 0
+X1 AND X2 = 0
+Funcion escalon = 0
+Salita correcta, los pesos no cambian
+
+Dato 2
+x1 = 0
+x2 = 1
+X1 AND X2 = 0
+Funcion escalon = 1
+Salida incorrecta, se ajustan los pesos
+Error = -1
+Tasa de aprendizaje = 0.2
+Nuevos pesos
+W0 = -0.6
+W1 = 0.5
+W2 = 0.3
+
+Dato 3
+x1 = 1
+x2 = 0
+X1 AND X2 = 0
+Funcion escalon = 0
+Salita correcta, los pesos no cambian
+
+Dato 4
+x1 = 1
+x2 = 1
+X1 AND X2 = 1
+Funcion escalon = 1
+Salita correcta, los pesos no cambian
+Final de epoca
+
+EPOCA 8
+Pesos
+W0 = -0.6
+W1 = 0.5
+W2 = 0.3
+
+Dato 1
+x1 = 0
+x2 = 0
+X1 AND X2 = 0
+Funcion escalon = 0
+Salita correcta, los pesos no cambian
+
+Dato 2
+x1 = 0
+x2 = 1
+X1 AND X2 = 0
+Funcion escalon = 0
+Salita correcta, los pesos no cambian
+
+Dato 3
+x1 = 1
+x2 = 0
+X1 AND X2 = 0
+Funcion escalon = 0
+Salita correcta, los pesos no cambian
+
+Dato 4
+x1 = 1
+x2 = 1
+X1 AND X2 = 1
+Funcion escalon = 1
+Salita correcta, los pesos no cambian
+Final de epoca
+
