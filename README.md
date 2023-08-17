@@ -1,8 +1,8 @@
 # Algoritmos IA
-## Algoritmos de busqueda no informada
-## Algoritmos de busqueda informada
-## Algoritmo Genetico
-## Algoritmos de machine learning
+### Algoritmos de busqueda no informada
+### Algoritmos de busqueda informada
+### Algoritmo Genetico
+### Algoritmos de machine learning
 ### Aprendizaje supervisado
 - Regresion lineal
 - Minimos cuadrados
